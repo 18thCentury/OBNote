@@ -1,0 +1,223 @@
+{
+  "nodeData": {
+    "id": "bb9eb17385d771d8",
+    "topic": "AI\u65b9\u6cd5\u8bba",
+    "children": [
+      {
+        "topic": "\u56f0\u60d1",
+        "id": "bb9eee04a06b9fe1",
+        "children": [
+          {
+            "topic": "\u89e3\u7b54",
+            "id": "bba56e160e8c3926",
+            "filepath": "\u89e3\u7b54.md"
+          },
+          {
+            "topic": "\u5206\u6790",
+            "id": "bba56efbb7c512d7",
+            "children": [
+              {
+                "topic": "\u5148\u505a\u7cfb\u7edf\u8bbe\u8ba1",
+                "id": "bbaf4dddc58e0269",
+                "children": [
+                  {
+                    "topic": "\u5de5\u7a0b\u7ea6\u675f",
+                    "id": "bbb00e3e8e718fef",
+                    "filepath": "\u5de5\u7a0b\u7ea6\u675f.md"
+                  },
+                  {
+                    "topic": "\u63a5\u53e3\u8bbe\u8ba1",
+                    "id": "bbb010f31bf3fd24",
+                    "children": [],
+                    "filepath": "\u63a5\u53e3\u8bbe\u8ba1.md"
+                  },
+                  {
+                    "topic": "\u6570\u636e\u6d41",
+                    "id": "bc561e945ee924bc",
+                    "filepath": "\u6570\u636e\u6d41.md"
+                  },
+                  {
+                    "topic": "\u751f\u547d\u5468\u671f",
+                    "id": "bc562012605c980b",
+                    "filepath": "\u751f\u547d\u5468\u671f.md"
+                  }
+                ],
+                "filepath": "\u5148\u505a\u7cfb\u7edf\u8bbe\u8ba1.md"
+              },
+              {
+                "topic": "\u4fee\u6539\u9700\u6c42,\u5fc5\u987b\u5148\u4fee\u6539\u8bbe\u8ba1\u6587\u6863",
+                "id": "bbaf4fd84cb45365",
+                "children": [],
+                "filepath": "\u4fee\u6539\u9700\u6c42_\u5fc5\u987b\u5148\u4fee\u6539\u8bbe\u8ba1\u6587\u6863.md"
+              },
+              {
+                "topic": "\u6ce8\u610f\u4e0a\u4e0b\u6587\u7a7a\u95f4",
+                "id": "bbaf51a9a0f23833",
+                "children": [
+                  {
+                    "topic": "\u5f00\u65b0\u5bf9\u8bdd",
+                    "id": "bbaf53ab8e7559c4",
+                    "filepath": "\u5f00\u65b0\u5bf9\u8bdd.md"
+                  },
+                  {
+                    "topic": "\u538b\u7f29\u6216\u7d22\u5f15",
+                    "id": "bbaf5407aa231169",
+                    "filepath": "\u538b\u7f29\u6216\u7d22\u5f15.md"
+                  }
+                ],
+                "filepath": "\u6ce8\u610f\u4e0a\u4e0b\u6587\u7a7a\u95f4.md"
+              },
+              {
+                "topic": "\u5b9a\u671f\u91cd\u6784",
+                "id": "bbafe8c4f3a9bc50",
+                "filepath": "\u5b9a\u671f\u91cd\u6784.md"
+              }
+            ],
+            "filepath": "\u5206\u6790.md"
+          }
+        ],
+        "filepath": "\u56f0\u60d1.md"
+      },
+      {
+        "topic": "\u57fa\u7840\u6280\u80fd",
+        "id": "bbae1ffff2d484c7",
+        "children": [
+          {
+            "topic": "\u6c9f\u901a\u80fd\u529b",
+            "id": "bbae22d32a9af3b7",
+            "children": [
+              {
+                "topic": "\u7ec6\u81f4\u8868\u8ff0",
+                "id": "bbaf5e27a757eae6",
+                "children": [
+                  {
+                    "topic": "\u6709\u6761\u7406",
+                    "id": "bbafe0601ea7256e",
+                    "children": [
+                      {
+                        "topic": "\u80cc\u666f/\u7acb\u610f",
+                        "id": "bbaf6274335aa19e",
+                        "filepath": "\u80cc\u666f_\u7acb\u610f.md"
+                      },
+                      {
+                        "topic": "\u601d\u8def\u6307\u5f15CoT/\u95ee\u9898\u63cf\u8ff0",
+                        "id": "bbaf651b57287a7e",
+                        "filepath": "\u601d\u8def\u6307\u5f15CoT_\u95ee\u9898\u63cf\u8ff0.md"
+                      },
+                      {
+                        "topic": "\u7ed3\u679c\u76ee\u7684",
+                        "id": "bbaf6e179ad5be1d",
+                        "filepath": "\u7ed3\u679c\u76ee\u7684.md"
+                      },
+                      {
+                        "topic": "\u9a8c\u8bc1\u65b9\u6cd5",
+                        "id": "bbaf75a76e7e5c47",
+                        "filepath": "\u9a8c\u8bc1\u65b9\u6cd5.md"
+                      }
+                    ],
+                    "filepath": "\u6709\u6761\u7406.md"
+                  }
+                ],
+                "filepath": "\u7ec6\u81f4\u8868\u8ff0.md"
+              },
+              {
+                "topic": "\u5148\u6c9f\u901a\u518d\u505a\u4e8b",
+                "id": "bbaf5f64cb7552ec",
+                "filepath": "\u5148\u6c9f\u901a\u518d\u505a\u4e8b.md"
+              }
+            ],
+            "filepath": "\u6c9f\u901a\u80fd\u529b.md"
+          },
+          {
+            "topic": "\u8f6f\u4ef6\u5de5\u7a0b",
+            "id": "bba58e8d2ae3cd4c",
+            "children": [
+              {
+                "topic": "\u5de5\u7a0b\u7ea6\u675f",
+                "id": "bbaf8758ac862d90",
+                "filepath": "\u5de5\u7a0b\u7ea6\u675f_1.md"
+              },
+              {
+                "topic": "\u9700\u6c42\u8bbe\u8ba1",
+                "id": "bbaf47ec0bb88967",
+                "children": [
+                  {
+                    "topic": "\u62c6\u89e3",
+                    "id": "bbb0198877e6fae4",
+                    "children": [
+                      {
+                        "topic": "\u76ee\u5f55\u7ed3\u6784",
+                        "id": "bbb02c8563201cfe",
+                        "filepath": "\u76ee\u5f55\u7ed3\u6784.md"
+                      },
+                      {
+                        "topic": "\u6570\u636e\u6d41\u5411",
+                        "id": "bbb02f09586eda79",
+                        "filepath": "\u6570\u636e\u6d41\u5411.md"
+                      },
+                      {
+                        "topic": "\u72b6\u6001\u7ba1\u7406",
+                        "id": "bbb0314d7f149bc8",
+                        "filepath": "\u72b6\u6001\u7ba1\u7406.md"
+                      },
+                      {
+                        "topic": "\u89c6\u89c9\u7ba1\u7406",
+                        "id": "bbb073e5f1c75965",
+                        "filepath": "\u89c6\u89c9\u7ba1\u7406.md"
+                      }
+                    ],
+                    "filepath": "\u62c6\u89e3.md"
+                  }
+                ],
+                "filepath": "\u9700\u6c42\u8bbe\u8ba1.md"
+              },
+              {
+                "topic": "\u6d4b\u8bd5\u9a71\u52a8\u5f00\u53d1(TDD)",
+                "id": "bbb043dce932345c",
+                "children": [
+                  {
+                    "topic": "\u5148\u5199\u6d4b\u8bd5\u7528\u4f8b",
+                    "id": "bbb04ec5ba10ddf8",
+                    "filepath": "\u5148\u5199\u6d4b\u8bd5\u7528\u4f8b.md"
+                  }
+                ],
+                "filepath": "\u6d4b\u8bd5\u9a71\u52a8\u5f00\u53d1_TDD_.md"
+              }
+            ],
+            "filepath": "\u8f6f\u4ef6\u5de5\u7a0b.md"
+          }
+        ],
+        "expanded": true,
+        "filepath": "\u57fa\u7840\u6280\u80fd.md"
+      },
+      {
+        "topic": "\u5de5\u5177",
+        "id": "bba58b982b706b24",
+        "children": [
+          {
+            "topic": "\u4ece\u201c\u5199\u4ee3\u7801\u201d\u8f6c\u5411\u201c\u7f16\u6392\u667a\u80fd\u4f53\u201d",
+            "id": "bc4da7becb7b2c6d",
+            "filepath": "\u4ece_\u5199\u4ee3\u7801_\u8f6c\u5411_\u7f16\u6392\u667a\u80fd\u4f53_.md"
+          },
+          {
+            "topic": "Antigravity",
+            "id": "bb9eb318f64405aa",
+            "children": [],
+            "expanded": true,
+            "filepath": "Antigravity.md"
+          },
+          {
+            "topic": "claude code",
+            "id": "bbafdbb8b547d44f",
+            "filepath": "claude code.md"
+          }
+        ],
+        "expanded": true,
+        "filepath": "\u5de5\u5177.md"
+      }
+    ],
+    "filepath": "AI\u65b9\u6cd5\u8bba.md"
+  },
+  "arrows": [],
+  "summaries": []
+}

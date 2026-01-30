@@ -1,0 +1,938 @@
+{
+  "nodeData": {
+    "id": "bb5801e8beea98a7",
+    "topic": "zephyr",
+    "children": [
+      {
+        "topic": "w5500驱动分析",
+        "id": "bb5af7d9d7cdaeb8",
+        "children": [
+          {
+            "topic": "定义",
+            "id": "bb5bedaf599865c2",
+            "children": [
+              {
+                "topic": "定义 config",
+                "id": "bb5bf13a9fb48b33",
+                "children": [
+                  {
+                    "topic": "ETH_NET_DEVICE_DT_INST_DEFINE",
+                    "id": "bb5c167f794a2893",
+                    "filepath": "ETH_NET_DEVICE_DT_INST_DEFINE.md"
+                  },
+                  {
+                    "topic": "定义spi接口",
+                    "id": "bb618dcdea3d42e0",
+                    "filepath": "定义spi接口.md"
+                  }
+                ],
+                "filepath": "定义 config.md"
+              },
+              {
+                "topic": "定义runtime",
+                "id": "bb5c0f1043924933",
+                "children": [
+                  {
+                    "topic": "tx_sem",
+                    "id": "bb61a21e24ffb6ed",
+                    "children": [
+                      {
+                        "topic": "标识发送成功",
+                        "id": "bb61c944bacc1311",
+                        "filepath": "标识发送成功.md"
+                      },
+                      {
+                        "topic": "为什么只有tx_sem",
+                        "id": "bb61a4c94692ce0d",
+                        "filepath": "为什么只有tx_sem.md"
+                      }
+                    ],
+                    "filepath": "tx_sem.md"
+                  },
+                  {
+                    "topic": "int_sem",
+                    "id": "bb61a29be4f0ac14",
+                    "filepath": "int_sem.md"
+                  }
+                ],
+                "filepath": "定义runtime.md"
+              },
+              {
+                "topic": "定义接口函数",
+                "id": "bb5c13948077232a",
+                "children": [
+                  {
+                    "topic": "w5500_spi_read",
+                    "id": "bb5c360075cdcf56",
+                    "filepath": "w5500_spi_read.md"
+                  },
+                  {
+                    "topic": "w5500_spi_write",
+                    "id": "bb5c337567aaf929",
+                    "children": [],
+                    "filepath": "w5500_spi_write.md"
+                  }
+                ],
+                "expanded": true,
+                "filepath": "定义接口函数.md"
+              },
+              {
+                "topic": "定义api",
+                "id": "bb5c3f0565d26ea6",
+                "children": [
+                  {
+                    "topic": ".iface_api.init = w5500_iface_init,",
+                    "id": "bb5c437757ef79af",
+                    "children": [
+                      {
+                        "topic": "net_if_get_device(iface)",
+                        "id": "bd56f4d9b815e353",
+                        "filepath": "net_if_get_device_iface_.md"
+                      },
+                      {
+                        "topic": "net_if_set_link_addr(iface, ctx->mac_addr,sizeof(ctx->mac_addr),NET_LINK_ETHERNET);",
+                        "id": "bb5c5c3435a86df4",
+                        "filepath": "net_if_set_link_addr_iface_ ctx__mac_addr_sizeof_ctx__mac_addr__NET_LINK_ETHERNET__.md"
+                      },
+                      {
+                        "topic": "ethernet_init(iface);",
+                        "id": "bb5c5fee7f73e543",
+                        "filepath": "ethernet_init_iface__.md"
+                      },
+                      {
+                        "topic": "net_if_carrier_off(iface);",
+                        "id": "bb5c6282e0f70db4",
+                        "filepath": "net_if_carrier_off_iface__.md"
+                      }
+                    ],
+                    "expanded": true,
+                    "filepath": "_.iface_api.init _ w5500_iface_init_.md"
+                  },
+                  {
+                    "topic": ".get_capabilities = w5500_get_capabilities,",
+                    "id": "bb5c457932f9e4c1",
+                    "filepath": "_.get_capabilities _ w5500_get_capabilities_.md"
+                  },
+                  {
+                    "topic": ".set_config = w5500_set_config,",
+                    "id": "bb5c47455bbd949d",
+                    "children": [
+                      {
+                        "id": "11c9de3902cf1",
+                        "topic": "New Node",
+                        "filepath": "Z_DEVICE_STATE_NAME.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true,
+                    "filepath": "_.set_config _ w5500_set_config_.md"
+                  },
+                  {
+                    "topic": ".start = w5500_hw_start,",
+                    "id": "bb5c48d6d813b8c2",
+                    "children": [
+                      {
+                        "id": "b3108ad6824d58",
+                        "topic": "New Node",
+                        "filepath": "",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true,
+                    "filepath": "_.start _ w5500_hw_start_.md"
+                  },
+                  {
+                    "topic": ".stop = w5500_hw_stop,",
+                    "id": "bb5c4a6404b0e36e",
+                    "children": [
+                      {
+                        "id": "cb5a715bdacd8",
+                        "topic": "New Node",
+                        "filepath": "",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true,
+                    "filepath": "_.stop _ w5500_hw_stop_.md"
+                  },
+                  {
+                    "topic": ".send = w5500_tx,",
+                    "id": "bb5c4c42db692c4f",
+                    "children": [
+                      {
+                        "topic": "spi 发送",
+                        "id": "bb61ebf0f79be9f7",
+                        "filepath": "spi 发送.md"
+                      },
+                      {
+                        "topic": "k_sem_take(&ctx->tx_sem, K_MSEC(10))",
+                        "id": "bb61ed4012d1f8bf",
+                        "filepath": "k_sem_take__ctx__tx_sem_ K_MSEC_10__.md"
+                      }
+                    ],
+                    "expanded": true,
+                    "filepath": "_.send _ w5500_tx_.md"
+                  }
+                ],
+                "expanded": true,
+                "filepath": "定义api.md"
+              }
+            ],
+            "expanded": true,
+            "filepath": "定义.md"
+          },
+          {
+            "topic": "w5500_init",
+            "id": "bb5d10044f653fb3",
+            "children": [
+              {
+                "topic": "配置中断引脚",
+                "id": "bb5d12a1b267f3fa",
+                "children": [
+                  {
+                    "topic": "定义中断处理函数",
+                    "id": "bb5d14792236dc3e",
+                    "children": [
+                      {
+                        "topic": "w5500_gpio_callback",
+                        "id": "bb5d17292069bf20",
+                        "children": [
+                          {
+                            "topic": "k_sem_give(&ctx->int_sem);",
+                            "id": "bb5d199d43c68b83",
+                            "filepath": "k_sem_give__ctx__int_sem__.md"
+                          }
+                        ],
+                        "filepath": "w5500_gpio_callback.md"
+                      }
+                    ],
+                    "filepath": "定义中断处理函数.md"
+                  }
+                ],
+                "filepath": "配置中断引脚.md"
+              },
+              {
+                "topic": "配置reset引脚",
+                "id": "bb5d1daf8bda3070",
+                "children": [
+                  {
+                    "topic": "可以用 k_sleep 函数",
+                    "id": "bb5d2424f59e369b",
+                    "filepath": "可以用 k_sleep 函数.md"
+                  }
+                ],
+                "filepath": "配置reset引脚.md"
+              },
+              {
+                "topic": "w5500_soft_reset",
+                "id": "bb5d2643f2e56159",
+                "filepath": "w5500_soft_reset.md"
+              },
+              {
+                "topic": "net_eth_mac_load",
+                "id": "bb5d2adc8d0c2674",
+                "filepath": "net_eth_mac_load.md"
+              },
+              {
+                "topic": "w5500_set_macaddr",
+                "id": "bb5d54b6b1504c1d",
+                "filepath": "w5500_set_macaddr.md"
+              },
+              {
+                "topic": "w5500_memory_configure",
+                "id": "bb5d81f8e7ee02f7",
+                "children": [
+                  {
+                    "topic": "配置RX/TX缓冲区大小 16K",
+                    "id": "bb5d84c6510daeaf",
+                    "filepath": "配置RX_TX缓冲区大小 16K.md"
+                  }
+                ],
+                "filepath": "w5500_memory_configure.md"
+              },
+              {
+                "topic": "w5500_spi_read   读取特殊寄存器,判断是否可用",
+                "id": "bb5d8857bfb98132",
+                "filepath": "w5500_spi_read   读取特殊寄存器_判断是否可用.md"
+              },
+              {
+                "topic": "k_thread_create",
+                "id": "bb5d8bebfaff58e8",
+                "children": [
+                  {
+                    "topic": "w5500_thread",
+                    "id": "bb5d9bf083e348ad",
+                    "children": [
+                      {
+                        "topic": "k_sem_take(&ctx->int_sem, K_MSEC(CONFIG_ETH_W5500_MONITOR_PERIOD));",
+                        "id": "bb5ece3b0c386875",
+                        "children": [],
+                        "filepath": "k_sem_take__ctx__int_sem_ K_MSEC_CONFIG_ETH_W5500_MONITOR_PERIOD___.md"
+                      },
+                      {
+                        "topic": "while (gpio_pin_get_dt(&(config->interrupt)))",
+                        "id": "bb5ea1b7ac48c9ec",
+                        "children": [
+                          {
+                            "topic": "w5500_spi_read(dev, W5500_S0_IR, &ir, 1);",
+                            "id": "bb5ea616c1a53222",
+                            "filepath": "w5500_spi_read_dev_ W5500_S0_IR_ _ir_ 1__.md"
+                          },
+                          {
+                            "topic": "w5500_spi_write(dev, W5500_S0_IR, &ir, 1);",
+                            "id": "bb5eaa0ce39a585c",
+                            "filepath": "w5500_spi_write_dev_ W5500_S0_IR_ _ir_ 1__.md"
+                          },
+                          {
+                            "topic": "ir & S0_IR_SENDOK",
+                            "id": "bb5eb9c7ada0377f",
+                            "children": [
+                              {
+                                "topic": "k_sem_give(&ctx->tx_sem);",
+                                "id": "bb5ebbbbab9a38cb",
+                                "filepath": "k_sem_give__ctx__tx_sem__.md"
+                              }
+                            ],
+                            "filepath": "ir _ S0_IR_SENDOK.md"
+                          },
+                          {
+                            "topic": "ir & S0_IR_RECV",
+                            "id": "bb5ebd98b8b209bd",
+                            "children": [
+                              {
+                                "topic": "w5500_rx(dev);",
+                                "id": "bb5ec037d461e82e",
+                                "filepath": "w5500_rx_dev__.md"
+                              }
+                            ],
+                            "filepath": "ir _ S0_IR_RECV.md"
+                          }
+                        ],
+                        "expanded": true,
+                        "filepath": "while _gpio_pin_get_dt___config__interrupt___.md"
+                      },
+                      {
+                        "topic": "semaphore timeout period expired",
+                        "id": "bb5ec7d482b5d1fc",
+                        "children": [
+                          {
+                            "topic": "w5500_update_link_status(dev);",
+                            "id": "bb5ed73f324dd039",
+                            "filepath": "w5500_update_link_status_dev__.md"
+                          }
+                        ],
+                        "filepath": "semaphore timeout period expired.md"
+                      }
+                    ],
+                    "filepath": "w5500_thread.md"
+                  }
+                ],
+                "expanded": true,
+                "filepath": "k_thread_create.md"
+              },
+              {
+                "topic": "ETH_NET_DEVICE_DT_INST_DEFINE",
+                "id": "bd572da67700eb4f",
+                "filepath": "ETH_NET_DEVICE_DT_INST_DEFINE_1.md"
+              }
+            ],
+            "expanded": true,
+            "filepath": "w5500_init.md"
+          },
+          {
+            "topic": "驱动与zephyr连接",
+            "id": "bd56dd1c71b0ff7f",
+            "children": [
+              {
+                "topic": "定义net_if结构体",
+                "id": "bdaa39be93e7fc4c",
+                "children": [
+                  {
+                    "topic": "dev",
+                    "id": "bdaa3db83f3d5f7a",
+                    "children": [],
+                    "filepath": "dev.md"
+                  },
+                  {
+                    "topic": "data",
+                    "id": "bdaa47a09f8380c6",
+                    "filepath": "data.md"
+                  }
+                ],
+                "expanded": true,
+                "filepath": "定义net_if结构体.md"
+              }
+            ],
+            "expanded": true,
+            "filepath": "驱动与zephyr连接.md"
+          }
+        ],
+        "expanded": true,
+        "filepath": "w5500驱动分析.md"
+      },
+      {
+        "topic": "thread",
+        "id": "bc062e25625427a2",
+        "direction": 1,
+        "children": [
+          {
+            "topic": "k_thread_create",
+            "id": "bc06333adab71f03",
+            "children": [
+              {
+                "topic": "struct k_thread *new_thread",
+                "id": "bc071380598f1e57",
+                "filepath": "struct k_thread _new_thread.md"
+              },
+              {
+                "topic": "k_thread_stack_t *stack",
+                "id": "bc071746616504d8",
+                "filepath": "k_thread_stack_t _stack.md"
+              },
+              {
+                "topic": "size_t stack_size",
+                "id": "bc071860ebcf6546",
+                "filepath": "size_t stack_size.md"
+              },
+              {
+                "topic": "k_thread_entry_t entry",
+                "id": "bc0719a27279c911",
+                "filepath": "k_thread_entry_t entry.md"
+              },
+              {
+                "topic": "void *p1",
+                "id": "bc071b7f986cfcc3",
+                "filepath": "void _p1.md"
+              },
+              {
+                "topic": "void *p2",
+                "id": "bc071bdc72c84071",
+                "filepath": "void _p2.md"
+              },
+              {
+                "topic": "void *p3",
+                "id": "bc071c75a386cd32",
+                "filepath": "void _p3.md"
+              },
+              {
+                "topic": "int prio",
+                "id": "bc071e44b7a8552d",
+                "filepath": "int prio.md"
+              },
+              {
+                "topic": "uint32_t options",
+                "id": "bc071fc98a3406fc",
+                "filepath": "uint32_t options.md"
+              },
+              {
+                "topic": "k_timeout_t delay",
+                "id": "bc07212b8957aea9",
+                "filepath": "k_timeout_t delay.md"
+              }
+            ],
+            "expanded": true,
+            "filepath": "k_thread_create_1.md"
+          },
+          {
+            "topic": "K_PRIO_COOP",
+            "id": "bc06711a76b842dc",
+            "filepath": "K_PRIO_COOP.md"
+          },
+          {
+            "topic": "K_PRIO_PREEMPT",
+            "id": "bc06edcd148fcc91",
+            "filepath": "K_PRIO_PREEMPT.md"
+          },
+          {
+            "topic": "sem",
+            "id": "bc07c489c70dd91a",
+            "filepath": "sem.md"
+          },
+          {
+            "topic": "event",
+            "id": "bc07c5f0d8734970",
+            "filepath": "event.md"
+          },
+          {
+            "topic": "k_busy_wait",
+            "id": "bc0d92c386d3de73",
+            "filepath": "k_busy_wait.md"
+          }
+        ],
+        "expanded": true,
+        "filepath": "thread.md"
+      },
+      {
+        "id": "3637e272e404e",
+        "topic": "Device Macro",
+        "filepath": "Device Macro.md",
+        "children": [
+          {
+            "id": "a236e85b14d388",
+            "topic": "ETH_NET_DEVICE_DT_INST_DEFINE",
+            "filepath": "ETH_NET_DEVICE_DT_INST_DEFINE_3.md",
+            "children": [
+              {
+                "id": "f02ab6c857ed9",
+                "topic": "DT_DRV_INST",
+                "filepath": "DT_DRV_INST.md",
+                "children": [
+                  {
+                    "id": "5066cdf288fa4",
+                    "topic": "DT_INST",
+                    "filepath": "DT_INST.md",
+                    "children": [
+                      {
+                        "id": "364c3d6e9960f8",
+                        "topic": "UTIL_CAT",
+                        "filepath": "UTIL_CAT.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "db42017a7e793",
+                        "topic": "DT_DASH",
+                        "filepath": "DT_DASH.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              },
+              {
+                "id": "18e5ad242b9118",
+                "topic": "DEVICE_DT_NAME",
+                "filepath": "DEVICE_DT_NAME.md",
+                "children": [
+                  {
+                    "id": "8c14a354fc5d28",
+                    "topic": "DT_PROP_OR",
+                    "filepath": "DT_PROP_OR.md",
+                    "children": [
+                      {
+                        "id": "9bb5886689658",
+                        "topic": "DT_PROP",
+                        "filepath": "DT_PROP.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "e929276b941a08",
+                        "topic": "DT_NODE_HAS_PROP",
+                        "filepath": "DT_NODE_HAS_PROP.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  },
+                  {
+                    "id": "2d8fa77ca007d8",
+                    "topic": "DT_NODE_FULL_NAME",
+                    "filepath": "DT_NODE_FULL_NAME.md",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "id": "5d9620bd85b68",
+            "topic": "ETH_NET_DEVICE_DT_DEFINE",
+            "filepath": "ETH_NET_DEVICE_DT_DEFINE.md",
+            "children": [
+              {
+                "id": "31eba90fe0a7b",
+                "topic": "Z_DEVICE_DT_DEV_ID",
+                "filepath": "Z_DEVICE_DT_DEV_ID.md",
+                "children": [
+                  {
+                    "id": "8f94918ad66848",
+                    "topic": "Z_DEVICE_DT_DEP_ORD",
+                    "filepath": "Z_DEVICE_DT_DEP_ORD.md",
+                    "children": [
+                      {
+                        "id": "b8a0340dbea728",
+                        "topic": "DT_DEP_ORD",
+                        "filepath": "DT_DEP_ORD.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              },
+              {
+                "id": "d766005b18723",
+                "topic": "Z_ETH_NET_DEVICE_INIT",
+                "filepath": "Z_ETH_NET_DEVICE_INIT.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "0d7cdf9791722",
+                "topic": "Z_ETH_NET_DEVICE_INIT_INSTANCE",
+                "filepath": "Z_ETH_NET_DEVICE_INIT_INSTANCE.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "6e4191b90b6a9",
+                "topic": "Z_DEVICE_STATE_DEFINE",
+                "filepath": "Z_DEVICE_STATE_DEFINE.md",
+                "children": [
+                  {
+                    "id": "fc0c06adc01dd8",
+                    "topic": "Z_DECL_ALIGN",
+                    "filepath": "Z_DECL_ALIGN.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "362fd0930c7978",
+                    "topic": "Z_DEVICE_STATE_NAME",
+                    "filepath": "Z_DEVICE_STATE_NAME.md",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              },
+              {
+                "topic": "Z_DEVICE_DEFINE",
+                "id": "bd92ac119545b1b4",
+                "children": [
+                  {
+                    "id": "9fe4350b6d2f4",
+                    "topic": "Z_DEVICE_NAME_CHECK",
+                    "filepath": "Z_DEVICE_NAME_CHECK.md",
+                    "children": [
+                      {
+                        "id": "df92f201a893c8",
+                        "topic": "BUILD_ASSERT",
+                        "filepath": "BUILD_ASSERT.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "30ea1882839d3",
+                        "topic": "Z_STRINGIFY",
+                        "filepath": "Z_STRINGIFY.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  },
+                  {
+                    "id": "be44d79be5c3b8",
+                    "topic": "Z_DEVICE_DEPS_DEFINE",
+                    "filepath": "Z_DEVICE_DEPS_DEFINE.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "topic": "Z_DEVICE_BASE_DEFINE",
+                    "id": "bd92d5ea309a91cd",
+                    "filepath": "Z_DEVICE_BASE_DEFINE.md",
+                    "children": [
+                      {
+                        "id": "dfd8a925bc0cb8",
+                        "topic": "STRUCT_SECTION_ITERABLE_NAMED_ALTERNATE",
+                        "filepath": "STRUCT_SECTION_ITERABLE_NAMED_ALTERNATE.md",
+                        "children": [
+                          {
+                            "id": "9aaa58ec37461",
+                            "topic": "TYPE_SECTION_ITERABLE",
+                            "filepath": "TYPE_SECTION_ITERABLE.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      },
+                      {
+                        "id": "48d44995c5929",
+                        "topic": "Z_DEVICE_IS_MUTABLE",
+                        "filepath": "Z_DEVICE_IS_MUTABLE.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "802f86b060842",
+                        "topic": "Z_DEVICE_SECTION_NAME",
+                        "filepath": "Z_DEVICE_SECTION_NAME.md",
+                        "children": [
+                          {
+                            "id": "ebde1dad4ee0e",
+                            "topic": "INIT_LEVEL_ORD",
+                            "filepath": "INIT_LEVEL_ORD.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      },
+                      {
+                        "id": "05231130e08fc8",
+                        "topic": "DEVICE_NAME_GET",
+                        "filepath": "DEVICE_NAME_GET.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "70ea7b52c12118",
+                        "topic": "Z_DEVICE_INIT",
+                        "filepath": "Z_DEVICE_INIT.md",
+                        "children": [
+                          {
+                            "id": "10a05cb69de64",
+                            "topic": "Z_DEVICE_OPS",
+                            "filepath": "Z_DEVICE_OPS.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  },
+                  {
+                    "topic": "Z_DEVICE_INIT_ENTRY_DEFINE",
+                    "id": "bd92d44d0364599a",
+                    "filepath": "Z_DEVICE_INIT_ENTRY_DEFINE.md",
+                    "children": [
+                      {
+                        "id": "5505198d6f955",
+                        "topic": "Z_DEVICE_CHECK_INIT_LEVEL",
+                        "filepath": "Z_DEVICE_CHECK_INIT_LEVEL.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "14873d2d1fb2f",
+                        "topic": "Z_DEVICE_INIT_SUB_PRIO",
+                        "filepath": "Z_DEVICE_INIT_SUB_PRIO.md",
+                        "children": [
+                          {
+                            "id": "c4a7e75ef410b",
+                            "topic": "DT_DEP_ORD_STR_SORTABLE",
+                            "filepath": "DT_DEP_ORD_STR_SORTABLE.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      },
+                      {
+                        "id": "c7ea7f85c952a8",
+                        "topic": "Z_INIT_ENTRY_SECTION",
+                        "filepath": "Z_INIT_ENTRY_SECTION.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "783b418951e7",
+                        "topic": "Z_INIT_ENTRY_NAME",
+                        "filepath": "Z_INIT_ENTRY_NAME.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  }
+                ],
+                "filepath": "Z_DEVICE_DEFINE.md",
+                "expanded": true
+              },
+              {
+                "id": "95e67322660c4",
+                "topic": "Z_DEVICE_DT_FLAGS",
+                "filepath": "Z_DEVICE_DT_FLAGS.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "id": "503133a624243",
+            "topic": "头文件",
+            "filepath": "头文件.md",
+            "children": [],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
+        "id": "45fb96e906ee7",
+        "topic": "Config",
+        "filepath": "Config.md",
+        "children": [
+          {
+            "id": "e3f704be2ed478",
+            "topic": "CONFIG_DEVICE_DT_METADATA",
+            "filepath": "CONFIG_DEVICE_DT_METADATA.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "50f08c110efbf",
+            "topic": "CONFIG_DEVICE_DEPS",
+            "filepath": "CONFIG_DEVICE_DEPS.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "8e5effc9a7ae2",
+            "topic": "CONFIG_DEVICE_MUTABLE",
+            "filepath": "CONFIG_DEVICE_MUTABLE.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "c04077b170d2b",
+            "topic": "CONFIG_DEVICE_DEINIT_SUPPORT",
+            "filepath": "CONFIG_DEVICE_DEINIT_SUPPORT.md",
+            "children": [],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
+        "topic": "Driver",
+        "id": "bc074b9d3e783afa",
+        "children": [
+          {
+            "id": "e9229851dbf5d8",
+            "topic": "示例",
+            "filepath": "示例.md",
+            "children": [
+              {
+                "id": "0d61dde3a7dcf",
+                "topic": "示例Device",
+                "filepath": "示例Device.md",
+                "children": [
+                  {
+                    "id": "98e560bac599f",
+                    "topic": "device最终macro",
+                    "filepath": "device最终macro.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "78cc1b1228bde",
+                    "topic": "关于 DT_NODE_EXISTS 和 static",
+                    "filepath": "关于 DT_NODE_EXISTS 和 static.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "5d90337ebfbdd",
+                    "topic": "关于init_fn为NULL",
+                    "filepath": "关于init_fn为NULL.md",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "topic": "NET_IF",
+            "id": "bd90772f51fae112",
+            "children": [
+              {
+                "topic": "STRUCT_SECTION_FOREACH",
+                "id": "bd9078d0e461df42",
+                "filepath": "STRUCT_SECTION_FOREACH.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "topic": "ETH_NET_DEVICE_DT_INST_DEFINE",
+                "id": "bd90bf3bab461a9d",
+                "filepath": "ETH_NET_DEVICE_DT_INST_DEFINE_2.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "filepath": "NET_IF.md",
+            "expanded": false
+          },
+          {
+            "topic": "Data Structure",
+            "id": "bd96363c15b83fc0",
+            "children": [
+              {
+                "topic": "struct net_if",
+                "id": "bd961ab4de279b44",
+                "children": [],
+                "filepath": "struct net_if.md"
+              },
+              {
+                "topic": "struct net_if_dev",
+                "id": "bd963908a4612b5f",
+                "children": [],
+                "filepath": "struct net_if_dev.md"
+              }
+            ],
+            "filepath": "Data Structure.md"
+          }
+        ],
+        "expanded": true,
+        "filepath": "Driver.md"
+      },
+      {
+        "topic": "CMake",
+        "id": "be394aa6389e09fd",
+        "direction": 1,
+        "children": [
+          {
+            "topic": "错误示例",
+            "id": "be394bb6c9975c9b",
+            "children": [
+              {
+                "topic": "问题解析",
+                "id": "be42fa5554bebd5d",
+                "filepath": "问题解析.md"
+              },
+              {
+                "topic": "最终结构",
+                "id": "be431b96b3a238db",
+                "filepath": "最终结构.md"
+              },
+              {
+                "topic": "结构更新",
+                "id": "be4d263d86e81148",
+                "filepath": "结构更新.md",
+                "children": []
+              }
+            ],
+            "expanded": true,
+            "filepath": "错误示例.md"
+          }
+        ],
+        "filepath": "CMake.md"
+      }
+    ],
+    "expanded": true,
+    "filepath": "zephyr.md"
+  }
+}

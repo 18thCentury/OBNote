@@ -1,0 +1,148 @@
+{
+  "nodeData": {
+    "id": "bb9f68009a56b2d8",
+    "topic": "Math",
+    "children": [
+      {
+        "topic": "数学基础",
+        "id": "bb9f6ecf6689b179",
+        "children": [
+          {
+            "topic": "三角函数",
+            "id": "bb9f7292fba74d64",
+            "children": [
+              {
+                "topic": "微积分视角",
+                "id": "bb9fc93be39f90eb",
+                "filepath": "微积分视角.md"
+              },
+              {
+                "topic": "泰勒级数",
+                "id": "bba124d58253e174",
+                "children": [
+                  {
+                    "topic": "泰勒余项",
+                    "id": "bbb1aa3728f86e3c",
+                    "filepath": "泰勒余项.md"
+                  }
+                ],
+                "filepath": "泰勒级数.md"
+              },
+              {
+                "topic": "级数定义",
+                "id": "bba1043e5b9468e3",
+                "filepath": "级数定义.md"
+              }
+            ],
+            "filepath": "三角函数.md"
+          },
+          {
+            "topic": "卷积",
+            "id": "bb9f8777776852f4",
+            "filepath": "卷积.md"
+          },
+          {
+            "topic": "傅里叶变换",
+            "id": "bb9f892f02f2569f",
+            "children": [
+              {
+                "topic": "相关概念",
+                "id": "bb9f8e266f99b99d",
+                "children": [
+                  {
+                    "topic": "e^-iwt",
+                    "id": "bbb2a58595cffb43",
+                    "filepath": "e__iwt.md"
+                  },
+                  {
+                    "topic": "复共轭",
+                    "id": "bbb2b146be527e5e",
+                    "filepath": "复共轭.md"
+                  },
+                  {
+                    "topic": "希尔伯特变换",
+                    "id": "bbb2da9cf03c3ba5",
+                    "filepath": "希尔伯特变换.md"
+                  },
+                  {
+                    "topic": "实数信号的傅里叶变换结果对称性",
+                    "id": "bbb2e2f525364be9",
+                    "filepath": "实数信号的傅里叶变换结果对称性.md"
+                  },
+                  {
+                    "topic": "为什么傅里叶变换的结果是复数",
+                    "id": "bbb2f0ba2e6dd1f6",
+                    "filepath": "为什么傅里叶变换的结果是复数.md"
+                  },
+                  {
+                    "topic": "傅里叶变换的相位和幅值",
+                    "id": "bbb370ec2309ce46",
+                    "filepath": "傅里叶变换的相位和幅值.md"
+                  },
+                  {
+                    "topic": "积分区间",
+                    "id": "bbb2fe341a9d0703",
+                    "children": [
+                      {
+                        "topic": "狄拉克$\\delta$函数",
+                        "id": "bbb35f8484f28000",
+                        "filepath": "狄拉克__delta_函数.md"
+                      },
+                      {
+                        "topic": "能量谱密度",
+                        "id": "bbb36539d4880555",
+                        "filepath": "能量谱密度.md"
+                      }
+                    ],
+                    "filepath": "积分区间.md"
+                  }
+                ],
+                "filepath": "相关概念.md"
+              },
+              {
+                "topic": "连续傅里叶变换",
+                "id": "bbb26b4040c54b86",
+                "filepath": "连续傅里叶变换.md"
+              },
+              {
+                "topic": "连续傅里叶逆变换",
+                "id": "bb9f8f965fa6dd45",
+                "children": [
+                  {
+                    "topic": "2pi",
+                    "id": "bbb39d8e2c636797",
+                    "filepath": "2pi.md"
+                  }
+                ],
+                "filepath": "连续傅里叶逆变换.md"
+              },
+              {
+                "topic": "离散傅里叶变换",
+                "id": "bb9f918439ced573",
+                "filepath": "离散傅里叶变换.md",
+                "children": [
+                  {
+                    "id": "8dcf1c88d452d8",
+                    "topic": "FFT",
+                    "filepath": "FFT.md",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              },
+              {
+                "topic": "离散傅里叶逆变换",
+                "id": "bbb26fc514ed8719",
+                "filepath": "离散傅里叶逆变换.md"
+              }
+            ],
+            "filepath": "傅里叶变换.md"
+          }
+        ],
+        "filepath": "数学基础.md"
+      }
+    ],
+    "filepath": "Math.md"
+  }
+}

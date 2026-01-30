@@ -1,0 +1,253 @@
+{
+  "nodeData": {
+    "id": "bb9f611430c94e47",
+    "topic": "Meter",
+    "children": [
+      {
+        "topic": "相关标准",
+        "id": "bbba3f3f431c75e4",
+        "direction": 1,
+        "children": [
+          {
+            "topic": "IEC 62053",
+            "id": "bbba40c1d3446632",
+            "filepath": "IEC 62053.md"
+          },
+          {
+            "topic": "IEC 61000",
+            "id": "bbba441671bdf543",
+            "filepath": "IEC 61000.md"
+          },
+          {
+            "topic": "IR46",
+            "id": "bbba45bf8f6d091a",
+            "filepath": "IR46.md"
+          }
+        ],
+        "filepath": "相关标准.md"
+      },
+      {
+        "topic": "相关数学",
+        "id": "bb9f64c45ddc2e9e",
+        "children": [
+          {
+            "topic": "有功功率计算",
+            "id": "bbb9688ab97463fd",
+            "children": [
+              {
+                "topic": "去直流偏置",
+                "id": "bbb98da4a6939762",
+                "filepath": "去直流偏置.md"
+              }
+            ],
+            "filepath": "有功功率计算.md"
+          },
+          {
+            "topic": "无功功率计算",
+            "id": "bbb96a1aaee0cee1",
+            "children": [
+              {
+                "topic": "基波无功功率(IEC)",
+                "id": "bbb9918e5fe974cf",
+                "filepath": "基波无功功率_IEC_.md"
+              },
+              {
+                "topic": "瞬时无功功率(p-q理论)",
+                "id": "bbb994befb8ce9a5",
+                "filepath": "瞬时无功功率_p_q理论_.md"
+              },
+              {
+                "topic": "畸变功率(Distortion Power)",
+                "id": "bbb998a70c8a5711",
+                "filepath": "畸变功率_Distortion Power_.md"
+              }
+            ],
+            "filepath": "无功功率计算.md"
+          },
+          {
+            "topic": "开方算法的变体",
+            "id": "bbb99e931b769438",
+            "children": [
+              {
+                "topic": "牛顿迭代法",
+                "id": "bbb9a161bc57b954",
+                "filepath": "牛顿迭代法.md"
+              },
+              {
+                "topic": "定点数开方算法",
+                "id": "bbbc116c690587a4",
+                "filepath": "定点数开方算法.md"
+              }
+            ],
+            "filepath": "开方算法的变体.md"
+          },
+          {
+            "topic": "DFT",
+            "id": "bbb9a093ad302675",
+            "filepath": "DFT.md"
+          },
+          {
+            "topic": "FFT",
+            "id": "bbb9a4006c00427a",
+            "filepath": "FFT.md"
+          },
+          {
+            "topic": "系统",
+            "id": "bbb9a46eaf84a31f",
+            "children": [
+              {
+                "topic": "瞬时值采样与数字化(Signal Sampling)",
+                "id": "bbb9a7932600fc0b",
+                "children": [
+                  {
+                    "topic": "离散化",
+                    "id": "bbb9e2087fdc9e1f",
+                    "filepath": "离散化.md"
+                  },
+                  {
+                    "topic": "采样频率",
+                    "id": "bbb9e40d9096c4e6",
+                    "filepath": "采样频率.md"
+                  }
+                ],
+                "filepath": "瞬时值采样与数字化_Signal Sampling_.md"
+              },
+              {
+                "topic": "有功功率与电能(Active Power & Energy)",
+                "id": "bbb9ac8e59fda920",
+                "children": [
+                  {
+                    "topic": "瞬时功率",
+                    "id": "bbb9c72a341b9f8a",
+                    "filepath": "瞬时功率.md"
+                  },
+                  {
+                    "topic": "平均有功功率 (P)",
+                    "id": "bbb9c8d44230f311",
+                    "filepath": "平均有功功率 _P_.md"
+                  },
+                  {
+                    "topic": "电能(E)",
+                    "id": "bbb9cab9642500c4",
+                    "filepath": "电能_E_.md"
+                  }
+                ],
+                "filepath": "有功功率与电能_Active Power _ Energy_.md"
+              },
+              {
+                "topic": "有效值计算(RMS-Root Mean Square)",
+                "id": "bbb9b2b16fdf5460",
+                "filepath": "有效值计算_RMS_Root Mean Square_.md"
+              },
+              {
+                "topic": "视在功率/无功功率与功率因数",
+                "id": "bbb9b8b5de971011",
+                "children": [
+                  {
+                    "topic": "视在功率 ($S$)",
+                    "id": "bbb9cd18843949e4",
+                    "filepath": "视在功率 __S__.md"
+                  },
+                  {
+                    "topic": "无功功率 ($Q$)",
+                    "id": "bbb9cef95c1945b8",
+                    "filepath": "无功功率 __Q__.md"
+                  },
+                  {
+                    "topic": "功率因数 ($\\cos \\phi$)",
+                    "id": "bbb9d0b188ff1681",
+                    "filepath": "功率因数 ___cos _phi__.md"
+                  }
+                ],
+                "filepath": "视在功率_无功功率与功率因数.md"
+              },
+              {
+                "topic": "傅里叶变换与谐波分析 (FFT)",
+                "id": "bbb9d49a700193e9",
+                "children": [
+                  {
+                    "topic": "离散傅里叶变换 (DFT)： 将时域信号转为频域。",
+                    "id": "bbb9d6187c11d6c9",
+                    "filepath": "离散傅里叶变换 _DFT__ 将时域信号转为频域_.md"
+                  },
+                  {
+                    "topic": "总谐波畸变率 (THD)",
+                    "id": "bbb9d7d69c4f0a40",
+                    "filepath": "总谐波畸变率 _THD_.md"
+                  }
+                ],
+                "filepath": "傅里叶变换与谐波分析 _FFT_.md"
+              }
+            ],
+            "filepath": "系统.md"
+          }
+        ],
+        "filepath": "相关数学.md",
+        "expanded": false
+      },
+      {
+        "topic": "补充",
+        "id": "bbba32126829fb55",
+        "direction": 1,
+        "children": [
+          {
+            "topic": "补充1",
+            "id": "bbba38c0d9646816",
+            "filepath": "补充1.md"
+          }
+        ],
+        "filepath": "补充.md"
+      },
+      {
+        "topic": "要点/概念",
+        "id": "bbb9f67e6b454508",
+        "children": [
+          {
+            "topic": "抗混叠滤波（Anti-Aliasing Filter）",
+            "id": "bbb9f95eaae29cc2",
+            "filepath": "抗混叠滤波_Anti_Aliasing Filter_.md"
+          },
+          {
+            "topic": "谐波",
+            "id": "bbb9fb76ccafe0da",
+            "filepath": "谐波.md"
+          },
+          {
+            "topic": "同步采样（Coherent Sampling）",
+            "id": "bbb9fceb3af52559",
+            "filepath": "同步采样_Coherent Sampling_.md"
+          },
+          {
+            "topic": "RMS、FFT、THD",
+            "id": "bbb9fea9c09ece8d",
+            "filepath": "RMS_FFT_THD.md"
+          },
+          {
+            "topic": "完整工频周期",
+            "id": "bbba014405fb853f",
+            "filepath": "完整工频周期.md"
+          },
+          {
+            "topic": "RTC（实时时钟）温漂补偿",
+            "id": "bbba03f0f7e5ea05",
+            "filepath": "RTC_实时时钟_温漂补偿.md"
+          }
+        ],
+        "filepath": "要点_概念.md"
+      },
+      {
+        "topic": "面试",
+        "id": "bbba0a54c8fa0295",
+        "children": [
+          {
+            "topic": "电压、电流不同步采样会对有功电能产生什么影响？在实际系统中你如何控制或补偿？",
+            "id": "bbba0dd52a7b63aa",
+            "filepath": "电压_电流不同步采样会对有功电能产生什么影响_在实际系统中你如何控制或补偿_.md"
+          }
+        ],
+        "filepath": "面试.md"
+      }
+    ],
+    "filepath": "Meter.md"
+  }
+}
