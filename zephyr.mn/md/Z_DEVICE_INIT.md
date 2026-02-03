@@ -1,5 +1,5 @@
 
-```
+```c
 /**
  * @brief Initializer for @ref device.
  *

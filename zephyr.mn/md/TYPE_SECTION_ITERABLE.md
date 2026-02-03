@@ -22,11 +22,4 @@
 	__in_section(_##secname, static, _CONCAT(section_postfix, _)) __used __noasan
 ```
 
-
-```c
-#define ___in_section(a, b, c) \
-	__attribute__((section("." Z_STRINGIFY(a)			\
-				"." Z_STRINGIFY(b)			\
-				"." Z_STRINGIFY(c))))
-#define __in_section(a, b, c) ___in_section(a, b, c)
-```
+![[___in_section]]

@@ -1,6 +1,6 @@
 一句话版：
 
-> **`.init_fn` 为 `NULL` 是刻意设计的**，表示这个 _device init entry_ 本身**不负责调用初始化函数**，真正的初始化逻辑已经被“转移/合并”到了 device 对象里，或者在别的阶段完成。
+> **`.init_fn` 为 `NULL` 是刻意设计的**，表示这个` _device init entry_` 本身**不负责调用初始化函数**，真正的初始化逻辑已经被“转移/合并”到了 device 对象里，或者在别的阶段完成。
 
 下面慢慢拆开说。
 
@@ -10,7 +10,12 @@
 
 在 Zephyr 启动过程中，会有一堆 `struct init_entry` 被按 **section + priority** 排好序，然后在启动时统一遍历执行：
 
-`struct init_entry {     int (*init_fn)(void);     const struct device *dev; };`
+```
+struct init_entry {     
+	int (*init_fn)(void);     
+	const struct device *dev; 
+};
+```
 
 执行逻辑大致是（伪代码）：
 

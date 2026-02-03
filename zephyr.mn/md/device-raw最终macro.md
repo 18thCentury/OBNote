@@ -1,10 +1,12 @@
 ```
+__aligned(__alignof(struct device_state)) struct device_state __devstate_##dev_id __attribute__((__section__(".z_devstate")));
+
 __aligned(__alignof(struct deivce)) struct deivce  __device_dts_ord_102 __attribute__((section("._device.static.3_80_"))) = 
 {										
 		.name = "w5500@0",								
 		.config = (&w5500_0_config),							
 		.api = (&w5500_api_funcs),								
-		.state = (&__devstate_##dev_id),							
+		.state = (&__devstate_##dev_id),// 这里引用.z_devstate
 		.data = (&w5500_0_runtime),							
 		.ops = {.init = (w5500_init),.deinit = (deinit_fn_),},
 		.flags = (flags_),							

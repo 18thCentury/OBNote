@@ -12,6 +12,6 @@
 
 E:\Project\zephyr\zephyrproject\application\APPS\build\zephyr\include\generated\zephyr\devicetree_generated.h
 
-```
+```c
 #define DT_N_S_soc_S_spi_40013000_S_w5500_0_ORD_STR_SORTABLE 00102
 ```

@@ -1,0 +1,22 @@
+```c
+#define NET_IF_CONFIG_INIT				\
+	.config = {					\
+		IF_ENABLED(CONFIG_NET_IP, (.ip = {},))  \
+		NET_IF_DHCPV4_INIT			\
+		NET_IF_DHCPV6_INIT			\
+	}
+```
+
+
+```c
+#define NET_IF_DHCPV4_INIT						\
+	IF_ENABLED(UTIL_AND(IS_ENABLED(CONFIG_NET_DHCPV4),		\
+			    IS_ENABLED(CONFIG_NET_NATIVE_IPV4)),	\
+		   (.dhcpv4.state = NET_DHCPV4_DISABLED,))
+
+#define NET_IF_DHCPV6_INIT						\
+	IF_ENABLED(UTIL_AND(IS_ENABLED(CONFIG_NET_DHCPV6),		\
+			    IS_ENABLED(CONFIG_NET_NATIVE_IPV6)),	\
+		   (.dhcpv6.state = NET_DHCPV6_DISABLED,))
+
+```

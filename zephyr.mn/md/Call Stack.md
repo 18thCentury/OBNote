@@ -1,0 +1,5 @@
+```c
+
+SYS_INIT(net_init, POST_KERNEL, CONFIG_NET_INIT_PRIO);
+
+```

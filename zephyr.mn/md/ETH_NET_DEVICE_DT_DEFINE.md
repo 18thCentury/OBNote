@@ -21,3 +21,5 @@
 			      DEVICE_DT_NAME(node_id), init_fn, pm,	\
 			      data, config, prio, api, mtu)
 ```
+
+[[Z_ETH_NET_DEVICE_INIT]]
