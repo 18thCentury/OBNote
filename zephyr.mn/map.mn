@@ -967,7 +967,7 @@
                         "expanded": true
                       }
                     ],
-                    "expanded": false
+                    "expanded": true
                   },
                   {
                     "id": "b6de0d2cbac26",
@@ -1022,6 +1022,13 @@
             "expanded": true
           }
         ],
+        "expanded": true
+      },
+      {
+        "id": "f8e4d86efa75d",
+        "topic": "SYS",
+        "filepath": "SYS.md",
+        "children": [],
         "expanded": true
       },
       {
@@ -1132,7 +1139,9 @@
               {
                 "topic": "问题解析",
                 "id": "be42fa5554bebd5d",
-                "filepath": "问题解析.md"
+                "filepath": "问题解析.md",
+                "children": [],
+                "expanded": true
               },
               {
                 "topic": "最终结构",
