@@ -1,0 +1,1 @@
+OpenAI/Anthropic 兼容的 `tools` 参数格式

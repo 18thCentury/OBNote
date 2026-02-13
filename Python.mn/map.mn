@@ -1,0 +1,46 @@
+{
+  "nodeData": {
+    "id": "1e9abd7919e7f8",
+    "topic": "Python",
+    "filepath": "Python.md",
+    "children": [
+      {
+        "id": "149c02428b7d3",
+        "topic": "Library",
+        "filepath": "Library.md",
+        "children": [
+          {
+            "id": "7175b319c1fb",
+            "topic": "abc",
+            "filepath": "abc.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "1a799268cf2a5",
+            "topic": "typer",
+            "filepath": "typer.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "feabcc180d3af",
+            "topic": "Path",
+            "filepath": "Path.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "be6e72d2a7f2b8",
+            "topic": "asyncio",
+            "filepath": "asyncio.md",
+            "children": [],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      }
+    ],
+    "expanded": true
+  }
+}

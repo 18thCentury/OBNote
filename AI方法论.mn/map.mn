@@ -1,203 +1,423 @@
 {
   "nodeData": {
     "id": "bb9eb17385d771d8",
-    "topic": "AI\u65b9\u6cd5\u8bba",
+    "topic": "AI方法论",
     "children": [
       {
-        "topic": "\u56f0\u60d1",
+        "topic": "困惑",
         "id": "bb9eee04a06b9fe1",
         "children": [
           {
-            "topic": "\u89e3\u7b54",
+            "topic": "解答",
             "id": "bba56e160e8c3926",
-            "filepath": "\u89e3\u7b54.md"
+            "filepath": "解答.md"
           },
           {
-            "topic": "\u5206\u6790",
+            "topic": "分析",
             "id": "bba56efbb7c512d7",
             "children": [
               {
-                "topic": "\u5148\u505a\u7cfb\u7edf\u8bbe\u8ba1",
+                "topic": "先做系统设计",
                 "id": "bbaf4dddc58e0269",
                 "children": [
                   {
-                    "topic": "\u5de5\u7a0b\u7ea6\u675f",
+                    "topic": "工程约束",
                     "id": "bbb00e3e8e718fef",
-                    "filepath": "\u5de5\u7a0b\u7ea6\u675f.md"
+                    "filepath": "工程约束.md"
                   },
                   {
-                    "topic": "\u63a5\u53e3\u8bbe\u8ba1",
+                    "topic": "接口设计",
                     "id": "bbb010f31bf3fd24",
                     "children": [],
-                    "filepath": "\u63a5\u53e3\u8bbe\u8ba1.md"
+                    "filepath": "接口设计.md"
                   },
                   {
-                    "topic": "\u6570\u636e\u6d41",
+                    "topic": "数据流",
                     "id": "bc561e945ee924bc",
-                    "filepath": "\u6570\u636e\u6d41.md"
+                    "filepath": "数据流.md"
                   },
                   {
-                    "topic": "\u751f\u547d\u5468\u671f",
+                    "topic": "生命周期",
                     "id": "bc562012605c980b",
-                    "filepath": "\u751f\u547d\u5468\u671f.md"
+                    "filepath": "生命周期.md"
                   }
                 ],
-                "filepath": "\u5148\u505a\u7cfb\u7edf\u8bbe\u8ba1.md"
+                "filepath": "先做系统设计.md"
               },
               {
-                "topic": "\u4fee\u6539\u9700\u6c42,\u5fc5\u987b\u5148\u4fee\u6539\u8bbe\u8ba1\u6587\u6863",
+                "topic": "修改需求,必须先修改设计文档",
                 "id": "bbaf4fd84cb45365",
                 "children": [],
-                "filepath": "\u4fee\u6539\u9700\u6c42_\u5fc5\u987b\u5148\u4fee\u6539\u8bbe\u8ba1\u6587\u6863.md"
+                "filepath": "修改需求_必须先修改设计文档.md"
               },
               {
-                "topic": "\u6ce8\u610f\u4e0a\u4e0b\u6587\u7a7a\u95f4",
+                "topic": "注意上下文空间",
                 "id": "bbaf51a9a0f23833",
                 "children": [
                   {
-                    "topic": "\u5f00\u65b0\u5bf9\u8bdd",
+                    "topic": "开新对话",
                     "id": "bbaf53ab8e7559c4",
-                    "filepath": "\u5f00\u65b0\u5bf9\u8bdd.md"
+                    "filepath": "开新对话.md"
                   },
                   {
-                    "topic": "\u538b\u7f29\u6216\u7d22\u5f15",
+                    "topic": "压缩或索引",
                     "id": "bbaf5407aa231169",
-                    "filepath": "\u538b\u7f29\u6216\u7d22\u5f15.md"
+                    "filepath": "压缩或索引.md"
                   }
                 ],
-                "filepath": "\u6ce8\u610f\u4e0a\u4e0b\u6587\u7a7a\u95f4.md"
+                "filepath": "注意上下文空间.md"
               },
               {
-                "topic": "\u5b9a\u671f\u91cd\u6784",
+                "topic": "定期重构",
                 "id": "bbafe8c4f3a9bc50",
-                "filepath": "\u5b9a\u671f\u91cd\u6784.md"
+                "filepath": "定期重构.md"
               }
             ],
-            "filepath": "\u5206\u6790.md"
+            "filepath": "分析.md"
           }
         ],
-        "filepath": "\u56f0\u60d1.md"
+        "filepath": "困惑.md"
       },
       {
-        "topic": "\u57fa\u7840\u6280\u80fd",
+        "topic": "基础技能",
         "id": "bbae1ffff2d484c7",
         "children": [
           {
-            "topic": "\u6c9f\u901a\u80fd\u529b",
+            "topic": "沟通能力",
             "id": "bbae22d32a9af3b7",
             "children": [
               {
-                "topic": "\u7ec6\u81f4\u8868\u8ff0",
+                "topic": "细致表述",
                 "id": "bbaf5e27a757eae6",
                 "children": [
                   {
-                    "topic": "\u6709\u6761\u7406",
+                    "topic": "有条理",
                     "id": "bbafe0601ea7256e",
                     "children": [
                       {
-                        "topic": "\u80cc\u666f/\u7acb\u610f",
+                        "topic": "背景/立意",
                         "id": "bbaf6274335aa19e",
-                        "filepath": "\u80cc\u666f_\u7acb\u610f.md"
+                        "filepath": "背景_立意.md"
                       },
                       {
-                        "topic": "\u601d\u8def\u6307\u5f15CoT/\u95ee\u9898\u63cf\u8ff0",
+                        "topic": "思路指引CoT/问题描述",
                         "id": "bbaf651b57287a7e",
-                        "filepath": "\u601d\u8def\u6307\u5f15CoT_\u95ee\u9898\u63cf\u8ff0.md"
+                        "filepath": "思路指引CoT_问题描述.md"
                       },
                       {
-                        "topic": "\u7ed3\u679c\u76ee\u7684",
+                        "topic": "结果目的",
                         "id": "bbaf6e179ad5be1d",
-                        "filepath": "\u7ed3\u679c\u76ee\u7684.md"
+                        "filepath": "结果目的.md"
                       },
                       {
-                        "topic": "\u9a8c\u8bc1\u65b9\u6cd5",
+                        "topic": "验证方法",
                         "id": "bbaf75a76e7e5c47",
-                        "filepath": "\u9a8c\u8bc1\u65b9\u6cd5.md"
+                        "filepath": "验证方法.md"
                       }
                     ],
-                    "filepath": "\u6709\u6761\u7406.md"
+                    "filepath": "有条理.md",
+                    "expanded": true
                   }
                 ],
-                "filepath": "\u7ec6\u81f4\u8868\u8ff0.md"
+                "filepath": "细致表述.md"
               },
               {
-                "topic": "\u5148\u6c9f\u901a\u518d\u505a\u4e8b",
+                "topic": "先沟通再做事",
                 "id": "bbaf5f64cb7552ec",
-                "filepath": "\u5148\u6c9f\u901a\u518d\u505a\u4e8b.md"
+                "filepath": "先沟通再做事.md"
               }
             ],
-            "filepath": "\u6c9f\u901a\u80fd\u529b.md"
+            "filepath": "沟通能力.md",
+            "expanded": true
           },
           {
-            "topic": "\u8f6f\u4ef6\u5de5\u7a0b",
+            "topic": "软件工程",
             "id": "bba58e8d2ae3cd4c",
             "children": [
               {
-                "topic": "\u5de5\u7a0b\u7ea6\u675f",
-                "id": "bbaf8758ac862d90",
-                "filepath": "\u5de5\u7a0b\u7ea6\u675f_1.md"
-              },
-              {
-                "topic": "\u9700\u6c42\u8bbe\u8ba1",
-                "id": "bbaf47ec0bb88967",
+                "id": "b2ca1e0b7d6bd",
+                "topic": "概念",
+                "filepath": "概念.md",
                 "children": [
                   {
-                    "topic": "\u62c6\u89e3",
-                    "id": "bbb0198877e6fae4",
+                    "id": "66c83a95001f1",
+                    "topic": "架构设计",
+                    "filepath": "架构设计.md",
                     "children": [
                       {
-                        "topic": "\u76ee\u5f55\u7ed3\u6784",
-                        "id": "bbb02c8563201cfe",
-                        "filepath": "\u76ee\u5f55\u7ed3\u6784.md"
+                        "id": "286e358175b568",
+                        "topic": "解耦",
+                        "filepath": "解耦.md",
+                        "children": [
+                          {
+                            "id": "7652a10a36f52",
+                            "topic": "接口",
+                            "filepath": "接口.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
                       },
                       {
-                        "topic": "\u6570\u636e\u6d41\u5411",
-                        "id": "bbb02f09586eda79",
-                        "filepath": "\u6570\u636e\u6d41\u5411.md"
+                        "id": "de63a53d6e11a8",
+                        "topic": "分层",
+                        "filepath": "分层.md",
+                        "children": [],
+                        "expanded": true
                       },
                       {
-                        "topic": "\u72b6\u6001\u7ba1\u7406",
-                        "id": "bbb0314d7f149bc8",
-                        "filepath": "\u72b6\u6001\u7ba1\u7406.md"
-                      },
-                      {
-                        "topic": "\u89c6\u89c9\u7ba1\u7406",
-                        "id": "bbb073e5f1c75965",
-                        "filepath": "\u89c6\u89c9\u7ba1\u7406.md"
+                        "id": "fd32ee167e0b3",
+                        "topic": "模块化",
+                        "filepath": "模块化.md",
+                        "children": [],
+                        "expanded": true
                       }
                     ],
-                    "filepath": "\u62c6\u89e3.md"
+                    "expanded": true
+                  },
+                  {
+                    "id": "d27b120cf2b91",
+                    "topic": "协同流程",
+                    "filepath": "协同流程.md",
+                    "children": [
+                      {
+                        "id": "a52f650cfc7f6",
+                        "topic": "代码审查/Lint检查",
+                        "filepath": "代码审查_Lint检查.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "209bbef10c3398",
+                        "topic": "CI/CD 持续集成与部署",
+                        "filepath": "CI_CD 持续集成与部署.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "3022036b2d3488",
+                        "topic": "自动化测试",
+                        "filepath": "自动化测试.md",
+                        "children": [],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  },
+                  {
+                    "id": "f5b13e820498e8",
+                    "topic": "质量测试",
+                    "filepath": "质量测试.md",
+                    "children": [
+                      {
+                        "id": "594e0493ef62b",
+                        "topic": "“自动化测试网”（Automated Test Suite）",
+                        "filepath": "“自动化测试网”（Automated Test Suite）.md",
+                        "children": [
+                          {
+                            "id": "13cc0ef5407b58",
+                            "topic": "单元测试",
+                            "filepath": "单元测试.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
                   }
                 ],
-                "filepath": "\u9700\u6c42\u8bbe\u8ba1.md"
+                "expanded": true
               },
               {
-                "topic": "\u6d4b\u8bd5\u9a71\u52a8\u5f00\u53d1(TDD)",
-                "id": "bbb043dce932345c",
+                "id": "9e823d1ec67dc8",
+                "topic": "思考",
+                "filepath": "思考.md",
                 "children": [
                   {
-                    "topic": "\u5148\u5199\u6d4b\u8bd5\u7528\u4f8b",
-                    "id": "bbb04ec5ba10ddf8",
-                    "filepath": "\u5148\u5199\u6d4b\u8bd5\u7528\u4f8b.md"
+                    "id": "ca759ddb7f4518",
+                    "topic": "痛点",
+                    "filepath": "痛点.md",
+                    "children": [
+                      {
+                        "id": "ec2543a7c3fe58",
+                        "topic": "规模问题",
+                        "filepath": "规模问题.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "806e234c7ddc4",
+                        "topic": "不可见性",
+                        "filepath": "不可见性.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "68bab809e3ddc8",
+                        "topic": "变化性",
+                        "filepath": "变化性.md",
+                        "children": [],
+                        "expanded": true
+                      },
+                      {
+                        "id": "2768aadbd50bf",
+                        "topic": "隐形成本",
+                        "filepath": "隐形成本.md",
+                        "children": [
+                          {
+                            "id": "064844bd482028",
+                            "topic": "沟通成本",
+                            "filepath": "沟通成本.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "3d38e69154dc3",
+                            "topic": "拆解难度",
+                            "filepath": "拆解难度.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
+                        "expanded": true
+                      }
+                    ],
+                    "expanded": true
+                  },
+                  {
+                    "topic": "需求设计",
+                    "id": "bbaf47ec0bb88967",
+                    "children": [
+                      {
+                        "topic": "拆解",
+                        "id": "bbb0198877e6fae4",
+                        "children": [
+                          {
+                            "id": "084e07d8c78a08",
+                            "topic": "拆解方案1",
+                            "filepath": "拆解方案1.md",
+                            "children": [
+                              {
+                                "topic": "目录结构",
+                                "id": "bbb02c8563201cfe",
+                                "filepath": "目录结构.md"
+                              },
+                              {
+                                "topic": "视觉管理",
+                                "id": "bbb073e5f1c75965",
+                                "filepath": "视觉管理.md"
+                              },
+                              {
+                                "topic": "数据流向",
+                                "id": "bbb02f09586eda79",
+                                "filepath": "数据流向.md"
+                              },
+                              {
+                                "topic": "状态管理",
+                                "id": "bbb0314d7f149bc8",
+                                "filepath": "状态管理.md"
+                              }
+                            ],
+                            "expanded": true
+                          }
+                        ],
+                        "filepath": "拆解.md",
+                        "expanded": true
+                      }
+                    ],
+                    "filepath": "需求设计.md"
+                  },
+                  {
+                    "topic": "工程约束",
+                    "id": "bbaf8758ac862d90",
+                    "filepath": "工程约束_1.md"
+                  },
+                  {
+                    "topic": "测试驱动开发(TDD)",
+                    "id": "bbb043dce932345c",
+                    "children": [
+                      {
+                        "topic": "先写测试用例",
+                        "id": "bbb04ec5ba10ddf8",
+                        "filepath": "先写测试用例.md"
+                      }
+                    ],
+                    "filepath": "测试驱动开发_TDD_.md"
                   }
                 ],
-                "filepath": "\u6d4b\u8bd5\u9a71\u52a8\u5f00\u53d1_TDD_.md"
+                "expanded": true
               }
             ],
-            "filepath": "\u8f6f\u4ef6\u5de5\u7a0b.md"
+            "filepath": "软件工程.md",
+            "expanded": true
           }
         ],
         "expanded": true,
-        "filepath": "\u57fa\u7840\u6280\u80fd.md"
+        "filepath": "基础技能.md"
       },
       {
-        "topic": "\u5de5\u5177",
+        "id": "705bcbbd5ed17",
+        "topic": "模型",
+        "filepath": "模型.md",
+        "children": [
+          {
+            "id": "4ae9f865f81028",
+            "topic": "模型特性",
+            "filepath": "模型特性.md",
+            "children": [
+              {
+                "id": "c28315f06276c",
+                "topic": "自动上下文缓存",
+                "filepath": "自动上下文缓存.md",
+                "children": [
+                  {
+                    "id": "a865dc401eeba",
+                    "topic": "Prompt Caching",
+                    "filepath": "Prompt Caching.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "a095b394e69ef8",
+                    "topic": "KV Cache复用",
+                    "filepath": "KV Cache复用.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "3817c661cf5bc8",
+                    "topic": "上下文窗口管理",
+                    "filepath": "上下文窗口管理.md",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
+        "id": "29f6cd62e9e9b",
+        "topic": "智能体",
+        "filepath": "智能体.md",
+        "children": [],
+        "expanded": true
+      },
+      {
+        "topic": "工具",
         "id": "bba58b982b706b24",
         "children": [
           {
-            "topic": "\u4ece\u201c\u5199\u4ee3\u7801\u201d\u8f6c\u5411\u201c\u7f16\u6392\u667a\u80fd\u4f53\u201d",
+            "topic": "从“写代码”转向“编排智能体”",
             "id": "bc4da7becb7b2c6d",
-            "filepath": "\u4ece_\u5199\u4ee3\u7801_\u8f6c\u5411_\u7f16\u6392\u667a\u80fd\u4f53_.md"
+            "filepath": "从_写代码_转向_编排智能体_.md"
           },
           {
             "topic": "Antigravity",
@@ -213,11 +433,9 @@
           }
         ],
         "expanded": true,
-        "filepath": "\u5de5\u5177.md"
+        "filepath": "工具.md"
       }
     ],
-    "filepath": "AI\u65b9\u6cd5\u8bba.md"
-  },
-  "arrows": [],
-  "summaries": []
+    "filepath": "AI方法论.md"
+  }
 }
