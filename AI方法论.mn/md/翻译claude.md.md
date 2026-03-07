@@ -1,114 +1,94 @@
 
-
-
-## Workflow Orchestration
-
-### 1. Plan Node Default
-- Enter plan mode for ANY non-trivial task (3+ steps or architectural decisions)
-- If something goes sideways, STOP and re-plan immediately - don't keep pushing
-- Use plan mode for verification steps, not just building
-- Write detailed specs upfront to reduce ambiguity
-
-### 2. Subagent Strategy
-- Use subagents liberally to keep main context window clean
-- Offload research, exploration, and parallel analysis to subagents
-- For complex problems, throw more compute at it via subagents
-- One tack per subagent for focused execution
-
-### 3. Self-Improvement Loop
-- After ANY correction from the user: update `tasks/lessons.md` with the pattern
-- Write rules for yourself that prevent the same mistake
-- Ruthlessly iterate on these lessons until mistake rate drops
-- Review lessons at session start for relevant project
-
-### 4. Verification Before Done
-- Never mark a task complete without proving it works
-- Diff behavior between main and your changes when relevant
-- Ask yourself: "Would a staff engineer approve this?"
-- Run tests, check logs, demonstrate correctness
-
-### 5. Demand Elegance (Balanced)
-- For non-trivial changes: pause and ask "is there a more elegant way?"
-- If a fix feels hacky: "Knowing everything I know now, implement the elegant solution"
-- Skip this for simple, obvious fixes - don't over-engineer
-- Challenge your own work before presenting it
-
-### 6. Autonomous Bug Fixing
-- When given a bug report: just fix it. Don't ask for hand-holding
-- Point at logs, errors, failing tests - then resolve them
-- Zero context switching required from the user
-- Go fix failing CI tests without being told how
-
-## Task Management
-
-1. **Plan First**: Write plan to `tasks/todo.md` with checkable items
-2. **Verify Plan**: Check in before starting implementation
-3. **Track Progress**: Mark items complete as you go
-4. **Explain Changes**: High-level summary at each step
-5. **Document Results**: Add review section to `tasks/todo.md`
-6. **Capture Lessons**: Update `tasks/lessons.md` after corrections
-
-## Core Principles
-
-- **Simplicity First**: Make every change as simple as possible. Impact minimal code.
-- **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.
-- **Minimat Impact**: Changes should only touch what's necessary. Avoid introducing bugs.
-
-
-
----
-以下是 `claude.md` 的中文翻译，我保持了原有的结构并使用了更符合中文语境的开发者术语：
-
----
-
 ## 工作流编排 (Workflow Orchestration)
 
 ### 1. 默认进入计划节点 (Plan Node Default)
+
 - 对于任何**非琐碎任务**（涉及 3 个以上步骤或架构决策），必须进入计划模式。
+    
 - 如果执行过程中出现偏差，立即**停止并重新计划** —— 不要盲目推进。
+    
 - 将计划模式用于验证步骤，而不不仅仅是构建。
+    
 - 预先编写详细的技术规格说明书以减少歧义。
+    
+
 ### 2. 子智能体策略 (Subagent Strategy)
+
 - 大量使用子智能体以保持主上下文窗口（Main Context）的整洁。
+    
 - 将研究、探索和并行分析任务分发给子智能体。
+    
 - 面对复杂问题时，通过子智能体投入更多算力。
+    
 - 每个子智能体仅负责单一任务，以确保执行专注。
+    
 
 ### 3. 自我改进循环 (Self-Improvement Loop)
+
 - 在收到用户的**任何**纠正后：立即将错误模式更新至 `tasks/lessons.md`。
+    
 - 为自己编写规则以防止重复犯错。
+    
 - 对这些经验教训进行不懈迭代，直到错误率下降。
+    
 - 在会话开始时回顾相关项目的历史教训。
+    
 
 ### 4. 完成前验证 (Verification Before Done)
+
 - 在证明工作有效之前，切勿将任务标记为已完成。
+    
 - 在相关情况下，对比主分支与你的更改之间的行为差异。
+    
 - 问自己：“一位主任工程师（Staff Engineer）会批准这个吗？”
+    
 - 运行测试、检查日志、演示正确性。
+    
 
 ### 5. 追求优雅（平衡取舍） (Demand Elegance - Balanced)
+
 - 对于非琐碎的更改：停下来思考“是否有更优雅的方法？”。
+    
 - 如果修复方案感觉很拙劣（Hacky）：“利用我目前已知的所有信息，实现那个优雅的方案”。
+    
 - 对于简单明显的修复则跳过此步 —— 不要过度设计。
+    
 - 在提交作品前，先自我挑战。
+    
 
 ### 6. 自主 Bug 修复 (Autonomous Bug Fixing)
+
 - 收到 Bug 报告时：直接修复它。不要寻求手把手的指导。
+    
 - 锁定日志、报错信息、失败的测试用例 —— 然后解决它们。
+    
 - 确保用户无需进行上下文切换。
+    
 - 无需指示，主动去修复失败的 CI（持续集成）测试。
+    
 
 ## 任务管理 (Task Management)
+
 1. **计划先行**：将计划写入 `tasks/todo.md`，包含可勾选的任务项。
+    
 2. **验证计划**：在开始实施前进行确认。
+    
 3. **跟踪进度**：随做随标记已完成的项目。
+    
 4. **解释变更**：在每一步提供高层级的概述。
+    
 5. **记录结果**：在 `tasks/todo.md` 中添加评审章节。
+    
 6. **吸取教训**：在收到纠正后更新 `tasks/lessons.md`。
+    
 
 ## 核心原则 (Core Principles)
+
 - **简洁至上**：让每一次更改尽可能简单。影响的代码范围降至最低。
+    
 - **杜绝惰性**：寻找根本原因。拒绝临时补丁。遵循高级开发人员标准。
+    
 - **最小影响**：更改应仅触及必要的部分。避免引入新 Bug。
+    
 
 ---

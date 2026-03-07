@@ -42,7 +42,8 @@
                     "filepath": "生命周期.md"
                   }
                 ],
-                "filepath": "先做系统设计.md"
+                "filepath": "先做系统设计.md",
+                "expanded": false
               },
               {
                 "topic": "修改需求,必须先修改设计文档",
@@ -73,10 +74,12 @@
                 "filepath": "定期重构.md"
               }
             ],
-            "filepath": "分析.md"
+            "filepath": "分析.md",
+            "expanded": false
           }
         ],
-        "filepath": "困惑.md"
+        "filepath": "困惑.md",
+        "expanded": false
       },
       {
         "topic": "基础技能",
@@ -110,9 +113,11 @@
                         "filepath": "结果目的.md"
                       },
                       {
+                        "id": "20c19390612d7",
                         "topic": "验证方法",
-                        "id": "bbaf75a76e7e5c47",
-                        "filepath": "验证方法.md"
+                        "filepath": "验证方法.md",
+                        "children": [],
+                        "expanded": true
                       }
                     ],
                     "filepath": "有条理.md",
@@ -157,7 +162,7 @@
                             "expanded": true
                           }
                         ],
-                        "expanded": true
+                        "expanded": false
                       },
                       {
                         "id": "de63a53d6e11a8",
@@ -174,7 +179,7 @@
                         "expanded": true
                       }
                     ],
-                    "expanded": true
+                    "expanded": false
                   },
                   {
                     "id": "d27b120cf2b91",
@@ -203,7 +208,7 @@
                         "expanded": true
                       }
                     ],
-                    "expanded": true
+                    "expanded": false
                   },
                   {
                     "id": "f5b13e820498e8",
@@ -226,7 +231,7 @@
                         "expanded": true
                       }
                     ],
-                    "expanded": true
+                    "expanded": false
                   }
                 ],
                 "expanded": true
@@ -348,7 +353,7 @@
                     "filepath": "测试驱动开发_TDD_.md"
                   }
                 ],
-                "expanded": true
+                "expanded": false
               }
             ],
             "filepath": "软件工程.md",
@@ -401,7 +406,7 @@
             "expanded": true
           }
         ],
-        "expanded": true
+        "expanded": false
       },
       {
         "id": "29f6cd62e9e9b",
@@ -420,16 +425,41 @@
             "filepath": "从_写代码_转向_编排智能体_.md"
           },
           {
-            "topic": "Antigravity",
-            "id": "bb9eb318f64405aa",
-            "children": [],
-            "expanded": true,
-            "filepath": "Antigravity.md"
-          },
-          {
             "topic": "claude code",
             "id": "bbafdbb8b547d44f",
-            "filepath": "claude code.md"
+            "filepath": "claude code.md",
+            "children": [
+              {
+                "id": "b50d5931325fb8",
+                "topic": "claude.md",
+                "filepath": "claude.md.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "e88fb7bd37c308",
+                "topic": "翻译claude.md",
+                "filepath": "翻译claude.md.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "topic": "Antigravity",
+            "id": "bb9eb318f64405aa",
+            "children": [
+              {
+                "id": "468a4b9357b368",
+                "topic": "rules",
+                "filepath": "rules.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true,
+            "filepath": "Antigravity.md"
           }
         ],
         "expanded": true,
