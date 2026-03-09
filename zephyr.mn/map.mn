@@ -1300,12 +1300,55 @@
                     "id": "d04c4d49ab4a88",
                     "topic": "Radio",
                     "filepath": "Radio.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "74002679a2dd48",
+                    "topic": "dev_data",
+                    "filepath": "dev_data.md",
+                    "children": [],
+                    "expanded": true
+                  },
+                  {
+                    "id": "4b22e5427d279",
+                    "topic": "DEVICE_API",
+                    "filepath": "DEVICE_API.md",
                     "children": [
                       {
-                        "id": "f788d2bf7b07a",
-                        "topic": "New Node",
-                        "filepath": "New Node.md",
-                        "children": [],
+                        "id": "f15c2fb68960a",
+                        "topic": "sx12xx_lora_config",
+                        "filepath": "sx12xx_lora_config.md",
+                        "children": [
+                          {
+                            "id": "50ddfe474cc968",
+                            "topic": "Radio.SetChannel",
+                            "filepath": "Radio.SetChannel.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "e9a24e3cc70198",
+                            "topic": "Radio.SetTxConfig",
+                            "filepath": "Radio.SetTxConfig.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "dbec3ec527a47",
+                            "topic": "Radio.SetRxConfig",
+                            "filepath": "Radio.SetRxConfig.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "541946ccae5e48",
+                            "topic": "Radio.SetPublicNetwork",
+                            "filepath": "Radio.SetPublicNetwork.md",
+                            "children": [],
+                            "expanded": true
+                          }
+                        ],
                         "expanded": true
                       }
                     ],
@@ -1329,10 +1372,81 @@
                         "filepath": "sx12xx_init.md",
                         "children": [
                           {
+                            "id": "28744527b871d",
+                            "topic": "sx12xx_ev_tx_done",
+                            "filepath": "sx12xx_ev_tx_done.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "865c5a1c0f522",
+                            "topic": "sx12xx_ev_rx_done",
+                            "filepath": "sx12xx_ev_rx_done.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "34fa1135a4b27",
+                            "topic": "sx12xx_ev_rx_error",
+                            "filepath": "sx12xx_ev_rx_error.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "7c2b7d9d1adfd",
+                            "topic": "sx12xx_ev_tx_timed_out",
+                            "filepath": "sx12xx_ev_tx_timed_out.md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
                             "id": "a616572eac34f",
                             "topic": "Radio.Init",
                             "filepath": "Radio.Init.md",
-                            "children": [],
+                            "children": [
+                              {
+                                "id": "233df5794e3f2",
+                                "topic": "RxChainCalibration",
+                                "filepath": "RxChainCalibration.md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "b01168085205a",
+                                "topic": "SX1276SetOpMode( RF_OPMODE_SLEEP )",
+                                "filepath": "SX1276SetOpMode( RF_OPMODE_SLEEP ).md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "b93d5654230538",
+                                "topic": "SX1276IoIrqInit( DioIrq )",
+                                "filepath": "SX1276IoIrqInit( DioIrq ).md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "bdc32969de2718",
+                                "topic": "SX1276SetModem( RadioRegsInit[i].Modem )",
+                                "filepath": "SX1276SetModem( RadioRegsInit[i].Modem ).md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "1b87d23ef35ea",
+                                "topic": "SX1276Write( RadioRegsInit[i].Addr, RadioRegsInit[i].Value )",
+                                "filepath": "SX1276Write( RadioRegsInit[i].Addr, RadioRegsInit[i].Value ).md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "a02ff20cd6b4f8",
+                                "topic": "SX1276SetModem( MODEM_FSK )",
+                                "filepath": "SX1276SetModem( MODEM_FSK ).md",
+                                "children": [],
+                                "expanded": true
+                              }
+                            ],
                             "expanded": true
                           },
                           {
@@ -1346,6 +1460,13 @@
                         "expanded": true
                       }
                     ],
+                    "expanded": true
+                  },
+                  {
+                    "id": "613a6fbb900dd",
+                    "topic": "lora_config",
+                    "filepath": "lora_config.md",
+                    "children": [],
                     "expanded": true
                   }
                 ],
