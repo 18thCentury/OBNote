@@ -7,31 +7,31 @@
       {
         "id": "5dba6cc668f278",
         "topic": "文件结构",
-        "filepath": "文件结构.md",
+        "filepath": "NanoBot/文件结构.md",
         "children": [],
         "expanded": true
       },
       {
         "id": "b9a850554c7ff8",
         "topic": "流程",
-        "filepath": "流程.md",
+        "filepath": "NanoBot/流程.md",
         "children": [
           {
             "id": "155a1c055da3",
             "topic": "调用工具",
-            "filepath": "调用工具.md",
+            "filepath": "NanoBot/流程/调用工具.md",
             "children": [],
             "expanded": true
           },
           {
             "id": "17dc9764da6038",
             "topic": "不同模型优化",
-            "filepath": "不同模型优化.md",
+            "filepath": "NanoBot/流程/不同模型优化.md",
             "children": [
               {
                 "id": "4f6bf09bdaf578",
                 "topic": "deepseek",
-                "filepath": "deepseek.md",
+                "filepath": "NanoBot/流程/不同模型优化/deepseek.md",
                 "children": [],
                 "expanded": true
               }
@@ -44,7 +44,7 @@
       {
         "id": "b0ebe9a09af818",
         "topic": "tools格式",
-        "filepath": "tools格式.md",
+        "filepath": "NanoBot/tools格式.md",
         "children": [],
         "expanded": true
       }

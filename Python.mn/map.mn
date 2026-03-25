@@ -7,33 +7,33 @@
       {
         "id": "149c02428b7d3",
         "topic": "Library",
-        "filepath": "Library.md",
+        "filepath": "Python/Library.md",
         "children": [
           {
             "id": "7175b319c1fb",
             "topic": "abc",
-            "filepath": "abc.md",
+            "filepath": "Python/Library/abc.md",
             "children": [],
             "expanded": true
           },
           {
             "id": "1a799268cf2a5",
             "topic": "typer",
-            "filepath": "typer.md",
+            "filepath": "Python/Library/typer.md",
             "children": [],
             "expanded": true
           },
           {
             "id": "feabcc180d3af",
             "topic": "Path",
-            "filepath": "Path.md",
+            "filepath": "Python/Library/Path.md",
             "children": [],
             "expanded": true
           },
           {
             "id": "be6e72d2a7f2b8",
             "topic": "asyncio",
-            "filepath": "asyncio.md",
+            "filepath": "Python/Library/asyncio.md",
             "children": [],
             "expanded": true
           }

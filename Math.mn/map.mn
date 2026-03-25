@@ -14,7 +14,7 @@
               {
                 "topic": "微积分视角",
                 "id": "bb9fc93be39f90eb",
-                "filepath": "微积分视角.md"
+                "filepath": ""
               },
               {
                 "topic": "泰勒级数",
@@ -23,23 +23,24 @@
                   {
                     "topic": "泰勒余项",
                     "id": "bbb1aa3728f86e3c",
-                    "filepath": "泰勒余项.md"
+                    "filepath": ""
                   }
                 ],
-                "filepath": "泰勒级数.md"
+                "filepath": ""
               },
               {
                 "topic": "级数定义",
                 "id": "bba1043e5b9468e3",
-                "filepath": "级数定义.md"
+                "filepath": ""
               }
             ],
-            "filepath": "三角函数.md"
+            "filepath": "",
+            "expanded": false
           },
           {
             "topic": "卷积",
             "id": "bb9f8777776852f4",
-            "filepath": "卷积.md"
+            "filepath": ""
           },
           {
             "topic": "傅里叶变换",
@@ -52,32 +53,32 @@
                   {
                     "topic": "e^-iwt",
                     "id": "bbb2a58595cffb43",
-                    "filepath": "e__iwt.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "复共轭",
                     "id": "bbb2b146be527e5e",
-                    "filepath": "复共轭.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "希尔伯特变换",
                     "id": "bbb2da9cf03c3ba5",
-                    "filepath": "希尔伯特变换.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "实数信号的傅里叶变换结果对称性",
                     "id": "bbb2e2f525364be9",
-                    "filepath": "实数信号的傅里叶变换结果对称性.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "为什么傅里叶变换的结果是复数",
                     "id": "bbb2f0ba2e6dd1f6",
-                    "filepath": "为什么傅里叶变换的结果是复数.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "傅里叶变换的相位和幅值",
                     "id": "bbb370ec2309ce46",
-                    "filepath": "傅里叶变换的相位和幅值.md"
+                    "filepath": ""
                   },
                   {
                     "topic": "积分区间",
@@ -86,23 +87,24 @@
                       {
                         "topic": "狄拉克$\\delta$函数",
                         "id": "bbb35f8484f28000",
-                        "filepath": "狄拉克__delta_函数.md"
+                        "filepath": ""
                       },
                       {
                         "topic": "能量谱密度",
                         "id": "bbb36539d4880555",
-                        "filepath": "能量谱密度.md"
+                        "filepath": ""
                       }
                     ],
-                    "filepath": "积分区间.md"
+                    "filepath": ""
                   }
                 ],
-                "filepath": "相关概念.md"
+                "filepath": "",
+                "expanded": false
               },
               {
                 "topic": "连续傅里叶变换",
                 "id": "bbb26b4040c54b86",
-                "filepath": "连续傅里叶变换.md"
+                "filepath": ""
               },
               {
                 "topic": "连续傅里叶逆变换",
@@ -114,7 +116,7 @@
                     "filepath": "2pi.md"
                   }
                 ],
-                "filepath": "连续傅里叶逆变换.md"
+                "filepath": ""
               },
               {
                 "topic": "离散傅里叶变换",
@@ -137,10 +139,11 @@
                 "filepath": "离散傅里叶逆变换.md"
               }
             ],
-            "filepath": "傅里叶变换.md"
+            "filepath": "",
+            "expanded": true
           }
         ],
-        "filepath": "数学基础.md"
+        "filepath": ""
       }
     ],
     "filepath": "Math.md"
