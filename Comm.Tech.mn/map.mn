@@ -1,0 +1,35 @@
+{
+  "nodeData": {
+    "id": "b3f114f99c3a2",
+    "topic": "Comm.Tech",
+    "filepath": "Comm.Tech.md",
+    "children": [
+      {
+        "id": "acf765229cd6d",
+        "topic": "Lora",
+        "filepath": "Comm.Tech/Lora.md",
+        "fileType": "markdown",
+        "children": [],
+        "expanded": true
+      },
+      {
+        "id": "6c38620bc4e3e",
+        "topic": "NearLink",
+        "filepath": "Comm.Tech/NearLink.md",
+        "fileType": "markdown",
+        "children": [
+          {
+            "id": "ba69e4f54d074",
+            "topic": "Mesh组网",
+            "filepath": "Comm.Tech/NearLink/Mesh组网.md",
+            "fileType": "markdown",
+            "children": [],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      }
+    ],
+    "expanded": true
+  }
+}
