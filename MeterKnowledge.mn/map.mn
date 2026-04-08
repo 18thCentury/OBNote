@@ -472,6 +472,14 @@
                                     "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/简化版卡尔曼滤波/残差监测（Residual Monitor）.md",
                                     "children": [],
                                     "expanded": true
+                                  },
+                                  {
+                                    "id": "ef7370e9331f9",
+                                    "topic": "关于简化版卡尔曼滤波",
+                                    "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/简化版卡尔曼滤波/关于简化版卡尔曼滤波.md",
+                                    "fileType": "markdown",
+                                    "children": [],
+                                    "expanded": true
                                   }
                                 ],
                                 "expanded": true
@@ -481,6 +489,23 @@
                                 "topic": "CUSUM 算法",
                                 "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/CUSUM 算法.md",
                                 "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "71a40be7a3f948",
+                                "topic": "自适应频率追踪与补偿系统",
+                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/自适应频率追踪与补偿系统.md",
+                                "fileType": "markdown",
+                                "children": [
+                                  {
+                                    "id": "7be35c334f7ec",
+                                    "topic": "标定参数",
+                                    "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/自适应频率追踪与补偿系统/标定参数.md",
+                                    "fileType": "markdown",
+                                    "children": [],
+                                    "expanded": true
+                                  }
+                                ],
                                 "expanded": true
                               }
                             ],
