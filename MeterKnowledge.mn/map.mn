@@ -437,16 +437,68 @@
                             "topic": "虚拟时间累加器",
                             "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/虚拟时间累加器.md",
                             "fileType": "markdown",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "6b8e912fa6371",
+                            "topic": "现场自校准",
+                            "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准.md",
+                            "fileType": "markdown",
                             "children": [
                               {
-                                "id": "ca8522e97ec328",
-                                "topic": "开机回退",
-                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/虚拟时间累加器/开机回退.md",
+                                "id": "ea23ae1cf23a88",
+                                "topic": "相关知识",
+                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/相关知识.md",
                                 "fileType": "markdown",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "ff5478a6f62e5",
+                                "topic": "加权移动平均滤波",
+                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/加权移动平均滤波.md",
+                                "children": [],
+                                "expanded": true
+                              },
+                              {
+                                "id": "d8c4d6983cea8",
+                                "topic": "简化版卡尔曼滤波",
+                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/简化版卡尔曼滤波.md",
+                                "children": [
+                                  {
+                                    "id": "256feda009abb",
+                                    "topic": "残差监测（Residual Monitor）",
+                                    "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/简化版卡尔曼滤波/残差监测（Residual Monitor）.md",
+                                    "children": [],
+                                    "expanded": true
+                                  }
+                                ],
+                                "expanded": true
+                              },
+                              {
+                                "id": "c1352ce5f4767",
+                                "topic": "CUSUM 算法",
+                                "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/现场自校准/CUSUM 算法.md",
                                 "children": [],
                                 "expanded": true
                               }
                             ],
+                            "expanded": true
+                          },
+                          {
+                            "id": "8f59755193912",
+                            "topic": "双备份策略 (Double Buffering)",
+                            "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/双备份策略 (Double Buffering).md",
+                            "children": [],
+                            "expanded": true
+                          },
+                          {
+                            "id": "ca8522e97ec328",
+                            "topic": "开机回退",
+                            "filepath": "Meter/要点_概念/RTC_实时时钟_温漂补偿/开发流程/晶振年老化补偿/开机回退.md",
+                            "fileType": "markdown",
+                            "children": [],
                             "expanded": true
                           }
                         ],
