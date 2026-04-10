@@ -10,13 +10,22 @@
         "children": [
           {
             "id": "a9c3b59d1c26d8",
-            "topic": "New Node",
-            "filepath": "zephyr/Device/New Node_1.md",
-            "children": [],
+            "topic": "ADC",
+            "filepath": "zephyr/Device/ADC.md",
+            "children": [
+              {
+                "id": "a6cc169a6987a",
+                "topic": "RTIO",
+                "filepath": "zephyr/Device/ADC/RTIO.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
             "expanded": true
           }
         ],
-        "expanded": false
+        "expanded": true
       },
       {
         "id": "ca7ebd75b08278",
@@ -1311,7 +1320,7 @@
             "expanded": true
           }
         ],
-        "expanded": true
+        "expanded": false
       },
       {
         "id": "b4d1099c63593",
