@@ -4,6 +4,120 @@
     "topic": "AI方法论",
     "children": [
       {
+        "id": "ddb72ed25aa45",
+        "topic": "基础知识",
+        "filepath": "AI方法论/基础知识.md",
+        "children": [
+          {
+            "id": "e2abbabb32c",
+            "topic": "LLM",
+            "filepath": "AI方法论/基础知识/LLM.md",
+            "fileType": "markdown",
+            "children": [
+              {
+                "id": "4a733a02d978a8",
+                "topic": "local",
+                "filepath": "AI方法论/基础知识/LLM/local.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "47dbb754421398",
+                "topic": "cloud",
+                "filepath": "AI方法论/基础知识/LLM/cloud.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "id": "9eceb943a46538",
+            "topic": "token",
+            "filepath": "AI方法论/基础知识/token.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "e6e10335087db",
+            "topic": "prompt",
+            "filepath": "AI方法论/基础知识/prompt.md",
+            "children": [
+              {
+                "id": "ec965185a5c6c8",
+                "topic": "Prompt  Engeering",
+                "filepath": "AI方法论/基础知识/prompt/Prompt  Engeering.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": false
+          },
+          {
+            "id": "a789f275d269d",
+            "topic": "MCP",
+            "filepath": "AI方法论/基础知识/MCP.md",
+            "children": [],
+            "expanded": true
+          },
+          {
+            "id": "5fb27c4f3bf428",
+            "topic": "Agent",
+            "filepath": "AI方法论/基础知识/Agent.md",
+            "children": [
+              {
+                "id": "71f6d9914bf4a8",
+                "topic": "hermes",
+                "filepath": "AI方法论/基础知识/Agent/hermes.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          },
+          {
+            "id": "1873ec2bb6cf7",
+            "topic": "IDE",
+            "filepath": "AI方法论/基础知识/IDE.md",
+            "children": [
+              {
+                "id": "4bbe0c282cf108",
+                "topic": "ask",
+                "filepath": "AI方法论/基础知识/IDE/ask.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "061f6aaba546b8",
+                "topic": "plan",
+                "filepath": "AI方法论/基础知识/IDE/plan.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "7761e275814448",
+                "topic": "Agent",
+                "filepath": "AI方法论/基础知识/IDE/Agent.md",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "35fc1a07d8e21",
+                "topic": "debug",
+                "filepath": "AI方法论/基础知识/IDE/debug.md",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
         "topic": "困惑",
         "id": "bb9eee04a06b9fe1",
         "children": [
@@ -76,10 +190,27 @@
             ],
             "filepath": "AI方法论/困惑/分析.md",
             "expanded": false
+          },
+          {
+            "id": "417192601e4438",
+            "topic": "问题",
+            "filepath": "AI方法论/困惑/问题.md",
+            "fileType": "markdown",
+            "children": [
+              {
+                "id": "c59ca962223698",
+                "topic": "解析",
+                "filepath": "AI方法论/困惑/问题/解析.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
           }
         ],
         "filepath": "AI方法论/困惑.md",
-        "expanded": false
+        "expanded": true
       },
       {
         "topic": "基础技能",
@@ -360,7 +491,7 @@
             "expanded": true
           }
         ],
-        "expanded": true,
+        "expanded": false,
         "filepath": "AI方法论/基础技能.md"
       },
       {
@@ -406,7 +537,7 @@
             "expanded": true
           }
         ],
-        "expanded": false
+        "expanded": true
       },
       {
         "id": "29f6cd62e9e9b",
@@ -454,15 +585,40 @@
                 "id": "468a4b9357b368",
                 "topic": "rules",
                 "filepath": "AI方法论/工具/Antigravity/rules.md",
-                "children": [],
+                "children": [
+                  {
+                    "id": "26bcea82ccd358",
+                    "topic": "New Node",
+                    "filepath": "AI方法论/工具/Antigravity/rules/New Node.md",
+                    "fileType": "markdown",
+                    "children": [],
+                    "expanded": true
+                  }
+                ],
                 "expanded": true
               }
             ],
             "expanded": true,
             "filepath": "AI方法论/工具/Antigravity.md"
+          },
+          {
+            "id": "a9ff467a445b98",
+            "topic": "llama.cpp",
+            "filepath": "AI方法论/工具/llama.cpp.md",
+            "children": [
+              {
+                "id": "d1444653558318",
+                "topic": "运行gguf",
+                "filepath": "AI方法论/工具/llama.cpp/运行gguf.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
           }
         ],
-        "expanded": true,
+        "expanded": false,
         "filepath": "AI方法论/工具.md"
       }
     ],
