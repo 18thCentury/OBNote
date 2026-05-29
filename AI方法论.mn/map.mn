@@ -69,8 +69,8 @@
             "children": [
               {
                 "id": "71f6d9914bf4a8",
-                "topic": "hermes",
-                "filepath": "AI方法论/基础知识/Agent/hermes.md",
+                "topic": "harness",
+                "filepath": "AI方法论/基础知识/Agent/harness.md",
                 "children": [],
                 "expanded": true
               }
@@ -189,7 +189,7 @@
               }
             ],
             "filepath": "AI方法论/困惑/分析.md",
-            "expanded": false
+            "expanded": true
           },
           {
             "id": "417192601e4438",
@@ -484,14 +484,14 @@
                     "filepath": "AI方法论/基础技能/软件工程/思考/测试驱动开发_TDD_.md"
                   }
                 ],
-                "expanded": false
+                "expanded": true
               }
             ],
             "filepath": "AI方法论/基础技能/软件工程.md",
             "expanded": true
           }
         ],
-        "expanded": false,
+        "expanded": true,
         "filepath": "AI方法论/基础技能.md"
       },
       {
@@ -553,7 +553,26 @@
           {
             "topic": "从“写代码”转向“编排智能体”",
             "id": "bc4da7becb7b2c6d",
-            "filepath": "AI方法论/工具/从_写代码_转向_编排智能体_.md"
+            "filepath": "AI方法论/工具/从_写代码_转向_编排智能体_.md",
+            "children": [
+              {
+                "id": "fd8e2cea7d795",
+                "topic": "进步",
+                "filepath": "AI方法论/工具/从_写代码_转向_编排智能体_/进步.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              },
+              {
+                "id": "53a0f5e4678fe",
+                "topic": "未来",
+                "filepath": "AI方法论/工具/从_写代码_转向_编排智能体_/未来.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
           },
           {
             "topic": "claude code",
@@ -618,7 +637,7 @@
             "expanded": true
           }
         ],
-        "expanded": false,
+        "expanded": true,
         "filepath": "AI方法论/工具.md"
       }
     ],

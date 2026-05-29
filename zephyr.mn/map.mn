@@ -9,6 +9,13 @@
         "filepath": "zephyr/Device.md",
         "children": [
           {
+            "id": "7b9a6ff048cd18",
+            "topic": "GPIO",
+            "filepath": "zephyr/Device/GPIO.md",
+            "children": [],
+            "expanded": true
+          },
+          {
             "id": "a9c3b59d1c26d8",
             "topic": "ADC",
             "filepath": "zephyr/Device/ADC.md",
@@ -22,6 +29,14 @@
                 "expanded": true
               }
             ],
+            "expanded": true
+          },
+          {
+            "id": "d8f0cf73d2d3f",
+            "topic": "DMA",
+            "filepath": "zephyr/Device/DMA.md",
+            "fileType": "markdown",
+            "children": [],
             "expanded": true
           }
         ],
@@ -1534,6 +1549,31 @@
         "expanded": false
       },
       {
+        "id": "5e998d614d7098",
+        "topic": "USB",
+        "filepath": "zephyr/USB.md",
+        "children": [
+          {
+            "id": "db2c7c26d10ac8",
+            "topic": "ITF",
+            "filepath": "zephyr/USB/ITF.md",
+            "fileType": "markdown",
+            "children": [
+              {
+                "id": "a25ecc1136a7e",
+                "topic": "CDC",
+                "filepath": "zephyr/USB/ITF/CDC.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
         "id": "f8e4d86efa75d",
         "topic": "SYS",
         "filepath": "zephyr/SYS.md",
@@ -1686,6 +1726,22 @@
         "expanded": true
       },
       {
+        "id": "93c7a8dc0fe49",
+        "topic": "west",
+        "filepath": "zephyr/west.md",
+        "children": [
+          {
+            "id": "73d1907924e83",
+            "topic": "patch",
+            "filepath": "zephyr/west/patch.md",
+            "fileType": "markdown",
+            "children": [],
+            "expanded": true
+          }
+        ],
+        "expanded": true
+      },
+      {
         "id": "df3b9e22765618",
         "topic": "笔记",
         "filepath": "zephyr/笔记.md",
@@ -1710,9 +1766,33 @@
             "filepath": "zephyr/笔记/boot跳转失败.md",
             "children": [],
             "expanded": true
+          },
+          {
+            "id": "70c55a9e06edd",
+            "topic": "规范",
+            "filepath": "zephyr/笔记/规范.md",
+            "fileType": "markdown",
+            "children": [
+              {
+                "id": "4e1ccae4f52e08",
+                "topic": "IEC",
+                "filepath": "zephyr/笔记/规范/IEC.md",
+                "fileType": "markdown",
+                "children": [],
+                "expanded": true
+              }
+            ],
+            "expanded": true
           }
         ],
-        "expanded": false
+        "expanded": true
+      },
+      {
+        "id": "5372f6db56f3b8",
+        "topic": "安全",
+        "filepath": "zephyr/安全.md",
+        "children": [],
+        "expanded": true
       }
     ],
     "expanded": true,
